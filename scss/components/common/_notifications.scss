@@ -1,0 +1,37 @@
+.notification-line{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	padding: 25px 0;
+	z-index: 20;
+	padding-left: calc(#{$sidebar-width} * 2);
+	padding-right: $sidebar-width;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 0 1px rgba(#fff, .1);
+
+	&.bottom{
+		bottom: 0;
+		background: #071633;
+	}
+}
+
+.privacy-policy-notification{
+	display: flex;
+	align-items: center;
+
+	.ppn-text{
+		font-size: 14px;
+		color: #fff;
+		margin-right: 15px;
+
+		a{
+			text-decoration: underline;
+			color: $azure;
+
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+}

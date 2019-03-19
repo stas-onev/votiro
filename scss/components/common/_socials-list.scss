@@ -1,0 +1,36 @@
+.socials-list{
+	display: flex;
+	list-style: none;
+
+	li{
+		margin-right: 15px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
+		a{
+			display: flex;
+			height: 20px;
+			width: 20px;
+			align-items: flex-end;
+			justify-content: center;
+
+			svg{
+				max-height: 100%;
+				width: 100%;
+
+				*{
+					transition: all $t;
+					fill: #1e4a9d;
+				}
+			}
+
+			&:hover{
+				svg *{
+					fill: $primary;
+				}
+			}
+		}
+	}
+}

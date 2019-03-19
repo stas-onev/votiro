@@ -1,0 +1,61 @@
+.tech-card{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 45px 40px 45px 50px;
+	position: relative;
+	cursor: pointer;
+
+	.card-image{
+		height: 115px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex: none;
+		margin-bottom: 15px;
+
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	.card-name{
+		font-size: 1.111rem;
+		line-height: 1;
+		text-transform: uppercase;
+		font-weight: 500;
+		padding-bottom: 12px;
+		position: relative;
+		color: #fff;
+		flex: none;
+
+		&:before{
+			content: '';
+			display: block;
+			width: 60px;
+			height: 3px;
+			background: $primary;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+		}
+
+		&:after{
+			content: '';
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+
+	&:hover{
+		.card-name{
+			color: $primary;
+		}
+	}
+}

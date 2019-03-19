@@ -1,0 +1,19 @@
+.partners-section{
+	padding-left: $col-width;
+	padding-bottom: 80px;
+
+	.section-inner{
+		display: flex;
+		align-items: center;
+
+		.section-text{
+			width: 360px;
+			margin-right: 24px;
+			flex: none;
+		}
+
+		.section-slider{
+			width: calc(100% - 360px - 24px);
+		}
+	}
+}

@@ -1,0 +1,52 @@
+.tech-section{
+	.section-inner{
+		display: flex;
+		align-items: stretch;
+	}
+
+	.section-text{
+		width: 50%;
+		flex: none;
+		padding: 300px 120px 300px calc(#{$col-width} / 2);
+		position: relative;
+		display: flex;
+		align-items: center;
+
+		.section-image{
+			position: absolute;
+			left: 15px;
+			top: 0;
+		}
+	}
+
+	.section-cards-wrapper{
+		width: 50%;
+		flex: none;
+		background: #08214f;
+		padding: 40px;
+		display: flex;
+		align-items: center;
+	}
+
+	.tech-cards-list{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+
+		> .item{
+			width: 33.333%;
+			border-right: 2px solid #041637;
+			border-bottom: 2px solid #041637;
+
+			&:nth-child(3n){
+				border-right: 0;
+			}
+
+			&:nth-child(4),
+			&:nth-child(5),
+			&:nth-child(6){
+				border-bottom: 0;
+			}
+		}
+	}
+}

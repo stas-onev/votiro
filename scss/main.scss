@@ -1,0 +1,35 @@
+@import "components/fonts";
+@import "components/vars";
+@import "components/layout";
+@import "components/typography";
+@import "components/assist";
+@import "icons";
+
+// Header
+@import "components/header/header";
+
+// Sections
+@import "components/sections/first-screen-section";
+@import "components/sections/customers-section";
+@import "components/sections/tech-section";
+@import "components/sections/store-and-share-section";
+@import "components/sections/news-section";
+@import "components/sections/partners-section";
+
+// Footer
+@import "components/footer/footer";
+
+// Common
+@import "components/common/buttons";
+@import "components/common/forms";
+@import "components/common/panel";
+@import "components/common/logo";
+@import "components/common/sidebar";
+@import "components/common/sidebar-nav";
+@import "components/common/tech-card";
+@import "components/common/news-card";
+@import "components/common/socials-list";
+@import "components/common/logos-slider";
+@import "components/common/notifications";
+@import "components/common/sidebar-panel";
+@import "components/common/squared-tabs";
