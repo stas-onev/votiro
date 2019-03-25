@@ -10,6 +10,7 @@
 
 // Sections
 @import "components/sections/first-screen-section";
+@import "components/sections/mobile-first-screen-section";
 @import "components/sections/customers-section";
 @import "components/sections/tech-section";
 @import "components/sections/store-and-share-section";
@@ -33,3 +34,5 @@
 @import "components/common/notifications";
 @import "components/common/sidebar-panel";
 @import "components/common/squared-tabs";
+@import "components/common/menu-opener";
+@import "components/common/fullpage-tabs";

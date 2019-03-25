@@ -3,10 +3,10 @@
 	<div class="page">
 		<?php include('sidebar.php'); ?>
 		<div class="page-content">
-			<section class="first-screen-section">
+			<section class="first-screen-section d-none d-md-block"><!-- Desktop - >= 768px -->
 				<div class="section-inner">
 					<div class="section-text tpg">
-						<h1>You may trust your users, <br>but can you trust their files?</h1>
+						<h1>You may trust your users, <br class="d-none d-lg-inline">but can you trust their files?</h1>
 						<h3>Votiro File Disarmer – Securing Your Company’s Digital Journey</h3>
 						<p>In a world where unknown exploits are evading even the most trusted security systems, File Disarmer is the only solution to sanitize your files of any malicious threats, no matter where they come from.</p>
 					</div>
@@ -127,6 +127,51 @@
 					</div>
 				</div>
 			</section>
+			<section class="mobile-first-screen-section d-md-none"><!-- Mobile - < 767px -->
+				<div class="section-inner">
+					<div class="section-text tpg">
+						<h1>You may trust your users, but can you trust their files?</h1>
+						<h3>Votiro File Disarmer – Securing Your Company’s Digital Journey</h3>
+					</div>
+					<div class="section-nav">
+						<div class="section-nav-inner">
+							<div class="item" data-fullpage-tab="#government-agencies-fullpage">
+								<div class="item-image">
+									<i class="icon-building"></i>
+								</div>
+								<div class="item-caption">Government agencies</div>
+							</div>
+							<div class="item" data-fullpage-tab="#healthcare-fullpage">
+								<div class="item-image">
+									<i class="icon-healthcare"></i>
+								</div>
+								<div class="item-caption">Healthcare</div>
+							</div>
+							<div class="item" data-fullpage-tab="#insurance-fullpage">
+								<div class="item-image">
+									<i class="icon-insurance"></i>
+								</div>
+								<div class="item-caption">Insurance</div>
+							</div>
+							<div class="item" data-fullpage-tab="#financial-services-fullpage">
+								<div class="item-image">
+									<i class="icon-building"></i>
+								</div>
+								<div class="item-caption">Financial services</div>
+							</div>
+							<div class="item" data-fullpage-tab="#critical-infrastructure-fullpage">
+								<div class="item-image">
+									<i class="icon-critical"></i>
+								</div>
+								<div class="item-caption">Critical infrastructure</div>
+							</div>
+						</div>
+					</div>
+					<div class="section-text tpg">
+						<p>In a world where unknown exploits are evading even the most trusted security systems, File Disarmer is the only solution to sanitize your files of any malicious threats, no matter where they come from.</p>
+					</div>
+				</div>
+			</section>
 			<section class="customers-section">
 				<div class="section-inner">
 					<div class="section-content">
@@ -191,7 +236,7 @@
 									<div class="card-image">
 										<img src="img/big-icons/ccp-disarmer.png" alt="">
 									</div>
-									<a href="#" class="card-name">Disarmer for content collarboration platforms</a>
+									<a href="#" class="card-name">Disarmer for content collaboration platforms</a>
 								</div>
 							</div>
 							<div class="item">
@@ -225,7 +270,7 @@
 			<section class="store-and-share-section">
 				<div class="section-inner">
 					<div class="section-text tpg">
-						<h3>Store, Share and Use Files via Any <br>Platform - We Will Make Sure They’re Safe</h3>
+						<h3>Store, Share and Use Files via Any Platform - We Will Make Sure They’re Safe</h3>
 						<div class="sas-features-list">
 							<div class="item">
 								<div class="item-title">Security</div>
@@ -339,11 +384,11 @@
 							<a href="#" class="more-link thin">Explore our Knowledge base</a>
 						</div>
 					</div>
-					<div class="cards-list columns-4">
+					<div class="cards-list columns-4 lg-columns-2">
 						<div class="item">
 							<div class="news-card">
 								<div class="card-image">
-									<!-- Image Size: 360x205 -->
+									<!-- Image Size: 470x268 -->
 									<img src="img/tmp/news-image.jpg" alt="">
 								</div>
 								<div class="card-content">
@@ -359,7 +404,7 @@
 						<div class="item">
 							<div class="news-card">
 								<div class="card-image">
-									<!-- Image Size: 360x205 -->
+									<!-- Image Size: 470x268 -->
 									<img src="img/tmp/news-image.jpg" alt="">
 								</div>
 								<div class="card-content">
@@ -375,7 +420,7 @@
 						<div class="item">
 							<div class="news-card">
 								<div class="card-image">
-									<!-- Image Size: 360x205 -->
+									<!-- Image Size: 470x268 -->
 									<img src="img/tmp/news-image.jpg" alt="">
 								</div>
 								<div class="card-content">
@@ -391,7 +436,7 @@
 						<div class="item">
 							<div class="news-card">
 								<div class="card-image">
-									<!-- Image Size: 360x205 -->
+									<!-- Image Size: 470x268 -->
 									<img src="img/tmp/news-image.jpg" alt="">
 								</div>
 								<div class="card-content">
@@ -413,7 +458,7 @@
 						<div class="section-caption no-uppercase">
 							<h3 class="sc-title">Among Our Partners</h3>
 						</div>
-						<a href="#" class="btn">View all and apply</a>
+						<a href="#" class="btn d-none d-lg-inline-flex">View all and apply</a>
 					</div>
 					<div class="section-slider">
 						<div class="logos-slider">
@@ -433,10 +478,14 @@
 							</div>
 						</div>
 					</div>
+					<div class="section-mobile-content d-lg-none">
+						<a href="#" class="btn">View all and apply</a>
+					</div>
 				</div>
 			</section>
 			<?php include('footer.php'); ?>
 			<?php // include('notifications.php'); ?>
+			<?php include('page-parts/fullpage-tabs.inc.php'); ?>
 		</div>
 	</div>
 <?php include('footer-scripts.php'); ?>

@@ -51,6 +51,26 @@ a img{
 			padding-left: $sidebar-width;
 			width: 100%;
 		}
+
+		@media screen and (max-width: 1199px){
+			.page-sidebar{
+				width: $lg-sidebar-width;
+			}
+
+			.page-content{
+				padding-left: $lg-sidebar-width;
+			}
+		}
+
+		@media screen and (max-width: 767px){
+			.page-sidebar{
+				display: none;
+			}
+
+			.page-content{
+				padding-left: 0;
+			}
+		}
 	}
 
 	.footer{
@@ -59,6 +79,10 @@ a img{
 
 	.post-content{
 		padding-bottom: 80px;
+	}
+
+	@media screen and (max-width: 767px){
+		padding-top: 66px;
 	}
 }
 

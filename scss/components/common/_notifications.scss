@@ -14,6 +14,11 @@
 		bottom: 0;
 		background: #071633;
 	}
+
+	@media screen and (max-width: 767px){
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 
 .privacy-policy-notification{
@@ -21,7 +26,7 @@
 	align-items: center;
 
 	.ppn-text{
-		font-size: 14px;
+		font-size: 0.777rem;
 		color: #fff;
 		margin-right: 15px;
 

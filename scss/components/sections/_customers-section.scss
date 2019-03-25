@@ -16,5 +16,46 @@
 		.section-slider{
 			width: 70%;
 		}
+
+		@media screen and (max-width: 991px){
+			flex-direction: column;
+
+			.section-content{
+				width: 100%;
+				margin-bottom: 35px;
+				padding-right: 0;
+
+				.section-caption{
+					text-align: center;
+
+					.sc-title{
+						&:after{
+							left: calc(50% - 30px);
+						}
+					}
+				}
+			}
+
+			.section-slider{
+				width: 100%;
+			}
+		}
+
+		@media screen and (max-width: 767px){
+			.section-slider{
+				.slide{
+					width: 180px;
+					flex: none;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		padding-left: 0;
+	}
+
+	@media screen and (max-width: 767px){
+		padding-left: 0;
 	}
 }

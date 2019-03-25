@@ -68,5 +68,13 @@
 				border-color: lighten(#09214f, 10%);
 			}
 		}
+
+		@media screen and (max-width: 991px){
+			border-width: 2px;
+
+			&:after{
+				bottom: -10px;
+			}
+		}
 	}
 }

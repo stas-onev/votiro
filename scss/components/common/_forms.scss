@@ -4,14 +4,12 @@
 
 		&.with-columns{
 			display: flex;
-			width: calc(100% + 90px);
-			margin-left: -45px;
-			margin-right: -45px;
+			width: 100%;
+			justify-content: space-between;
 
 			.form-column{
-				padding: 0 45px;
-				flex: auto;
-				flex-basis: 100%;
+				flex: none;
+				width: calc(50% - 45px);
 
 				.form-field{
 					margin-bottom: 30px;

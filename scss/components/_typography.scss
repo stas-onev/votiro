@@ -11,6 +11,10 @@ body{
 	@media screen and (max-width: 1699px){
 		font-size: 15px;
 	}
+
+	@media screen and (max-width: 1199px){
+		font-size: 14px;
+	}
 }
 
 .tpg p,
@@ -27,6 +31,10 @@ body .tpg-body-1,
 
 	strong{
 		font-weight: 500;
+	}
+
+	@media screen and (max-width: 767px){
+		font-size: 16px;
 	}
 }
 
@@ -68,6 +76,10 @@ body .tpg-h2{
 	&:last-child{
 		margin-bottom: 0;
 	}
+
+	@media screen and (max-width: 767px){
+		font-size: 30px;
+	}
 }
 
 .tpg h3,
@@ -79,6 +91,10 @@ body .tpg-h3{
 
 	&:last-child{
 		margin-bottom: 0;
+	}
+
+	@media screen and (max-width: 767px){
+		font-size: 20px;
 	}
 }
 
@@ -181,17 +197,17 @@ body .tpg-h3{
 		}
 	}
 
-	// @media screen and (max-width: 991px){
-	// 	.sc-title{
-	// 		font-size: 38px;
-	// 	}
-	// }
+	@media screen and (max-width: 767px){
+		.sc-title{
+			font-size: 20px;
+		}
 
-	// @media screen and (max-width: 767px){
-	// 	.sc-title{
-	// 		font-size: 30px;
-	// 	}
-	// }
+		&.small{
+			.sc-title{
+				font-size: 18px;
+			}
+		}
+	}
 }
 
 .more-link{

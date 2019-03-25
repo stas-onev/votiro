@@ -57,4 +57,44 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 1199px){
+		padding: 10px;
+
+		li{
+			a{
+				padding: 15px 5px;
+
+				.item-text{
+					font-size: 13px;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 0;
+
+		li{
+			a{
+				flex-direction: row;
+				align-items: center;
+				justify-content: flex-start;
+				min-height: 0;
+
+				.item-icon{
+					margin-bottom: 0;
+					margin-right: 25px;
+				}
+
+				.item-text{
+					font-size: 16px;
+				}
+
+				br{
+					display: none;
+				}
+			}
+		}
+	}
 }

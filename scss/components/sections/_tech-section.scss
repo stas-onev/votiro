@@ -7,7 +7,7 @@
 	.section-text{
 		width: 50%;
 		flex: none;
-		padding: 300px 120px 300px calc(#{$col-width} / 2);
+		padding: 300px $col-width 300px calc(#{$col-width} / 2);
 		position: relative;
 		display: flex;
 		align-items: center;
@@ -16,6 +16,12 @@
 			position: absolute;
 			left: 15px;
 			top: 0;
+
+			img{
+				display: block;
+				max-width: 100%;
+				max-height: 100%;
+			}
 		}
 	}
 
@@ -46,6 +52,89 @@
 			&:nth-child(5),
 			&:nth-child(6){
 				border-bottom: 0;
+			}
+		}
+	}
+
+	@media screen and (max-width: 1199px){
+		.section-text{
+			padding: 200px calc(#{$col-width} / 2) 100px;
+
+			.section-image{
+				height: 200px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		.section-inner{
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		.section-text{
+			width: 100%;
+			padding-bottom: 0;
+			padding-top: 30px;
+			min-height: 290px;
+
+			.section-image{
+				height: 290px;
+				z-index: 0;
+			}
+
+			.section-text-inner{
+				padding-top: 30px;
+				background: rgba(#fff, .8);
+				padding-bottom: 30px;
+				position: relative;
+				z-index: 2;
+			}
+		}
+
+		.section-cards-wrapper{
+			width: 100%;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		.section-text{
+			position: relative;
+
+			&:before{
+				content: '';
+				display: block;
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 15px 25px 0 25px;
+				border-color: #fff transparent transparent transparent;
+				position: absolute;
+				left: calc(50% - 25px);
+				top: 100%;
+			}
+		}
+
+		.section-cards-wrapper{
+			padding: 40px 20px;
+			width: 100%;
+			overflow-x: auto;
+		}
+
+		.tech-cards-list{
+			display: flex;
+			width: 100%;
+			flex-wrap: nowrap;
+
+			> .item{
+				width: 300px;
+				flex: none;
+				border: 1px solid #fff !important;
+				margin-right: 15px;
+
+				&:last-child{
+					margin-right: 0;
+				}
 			}
 		}
 	}

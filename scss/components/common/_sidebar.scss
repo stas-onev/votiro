@@ -91,4 +91,25 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 1199px){
+		height: 120px;
+		padding: 15px 10px;
+
+		.block-caption{
+			font-size: 27px;
+
+			i{
+				transform: translateY(1px);
+			}
+
+			&:after{
+				width: 100%;
+			}
+		}
+
+		.block-subcaption{
+			font-size: 12px;
+		}
+	}
 }

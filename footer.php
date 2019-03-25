@@ -1,19 +1,22 @@
 <footer class="footer">
 	<div class="footer-inner">
-		<div class="footer-block">
+		<div class="footer-block footer-logo-block">
 			<a href="index.php" class="footer-logo">
 				<img src="img/logo-white.svg" alt="">
 			</a>
 		</div>
-		<div class="footer-block">
+		<div class="footer-block footer-nav-block">
 			<ul class="footer-nav">
 				<li><a href="#">Privacy Policy</a></li>
 				<li><a href="#">Terms and Services</a></li>
 				<li><a href="#">Site map</a></li>
 			</ul>
 			<p class="copyright">Copyright © <?= date('Y') ?> Votiro, Inc. All rights reserved.</p>
+			<div class="developed-by d-lg-none">
+				developed by <a href="//lm-studio.co.il/" target="_blank">lm-studio</a>
+			</div>
 		</div>
-		<div class="footer-block">
+		<div class="footer-block footer-socials-block">
 			<ul class="socials-list">
 				<li>
 					<a href="//bit.ly/2GtRjLK" target="_blank">
@@ -31,8 +34,8 @@
 					</a>
 				</li>
 			</ul>
-			<div class="developed-by">
-				developed by <a href="#" target="_blank">lm-studio</a>
+			<div class="developed-by d-none d-lg-block">
+				developed by <a href="//lm-studio.co.il/" target="_blank">lm-studio</a>
 			</div>
 		</div>
 	</div>

@@ -18,3 +18,27 @@
 </head>
 <body>
 	<div class="wrapper push">
+		<div class="header">
+			<div class="header-inner">
+				<div class="header-block">
+					<div class="menu-opener" data-toggle="menu-panel" data-target="#panel-mobile-nav">
+						<div class="bars">
+							<div class="bar"></div>
+							<div class="bar"></div>
+							<div class="bar"></div>
+						</div>
+						<span class="opener-text">menu</span>
+					</div>
+				</div>
+				<div class="header-block">
+					<a href="index.php" class="logo" title="Votiro">
+						<img src="img/logo.svg" alt="">
+					</a>
+				</div>
+				<div class="header-block">
+					<div class="tawk-holder">
+						<img src="img/tmp/tawk-chat-icon.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
