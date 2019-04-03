@@ -6,6 +6,7 @@
 	background: #fff;
 	z-index: 100;
 	box-shadow: 0 0 1px rgba(#000, .2);
+	display: none;
 
 	.header-inner{
 		display: flex;
@@ -45,5 +46,9 @@
 			max-width: 100%;
 			height: auto;
 		}
+	}
+
+	@media screen and (max-width: 767px){
+		display: block;
 	}
 }

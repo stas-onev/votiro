@@ -1,0 +1,159 @@
+.page-first-screen{
+	background-color: $navy !important;
+	color: #fff;
+	padding: 50px $col-width;
+	position: relative;
+	background-attachment: fixed;
+	background-size: 50%;
+
+	@media screen and (max-width: 767px){
+		padding: 20px;
+		background-size: cover;
+	}
+
+	&:after{
+		content: '';
+		display: block;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 25px 48px 0 48px;
+		border-color: $navy transparent transparent transparent;
+		position: absolute;
+		left: 50%;
+		top: 100%;
+		transform: translateX(-50%);
+	}
+
+	.pfs-content-wrapper{
+		display: flex;
+		width: 100%;
+		align-items: center;
+		min-height: 300px;
+
+		.section-content{
+			width: 58%;
+			padding: 50px 0;
+
+			p{
+				max-width: 766px;
+			}
+
+			h4{
+				font-size: 1.111em;
+			}
+		}
+
+		.section-image{
+			width: 42%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 30px;
+
+			img{
+				display: block;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
+
+	&.technology-page{
+		.pfs-content-wrapper{
+			.section-image{
+				position: absolute;
+				right: 0;
+				top: 0;
+			}
+		}
+	}
+
+	&.article-page{
+		background-color: #fff !important;
+		position: relative;
+		z-index: 2;
+
+		&:after{
+			display: none;
+		}
+
+		.pfs-content-wrapper{
+			background: #fff;
+			margin-bottom: -160px;
+
+			.section-content{
+				display: none;
+			}
+
+			.section-image{
+				padding: 0;
+				width: 100%;
+
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+
+	&.contacts-page{
+		&:after{
+			display: none;
+		}
+
+		.pfs-content-wrapper{
+			.section-content{
+				padding-bottom: 0;
+			}
+
+			.section-image{
+				@media screen and (max-width: 991px){
+					max-width: 260px;
+					margin-bottom: -100px;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		.pfs-content-wrapper{
+			flex-direction: column;
+
+			.section-content{
+				width: 100%;
+			}
+
+			.section-image{
+				width: 100%;
+				margin-top: 20px;
+			}
+		}
+
+		&.md-no-image{
+			.pfs-content-wrapper{
+				.section-image{
+					display: none;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		.pfs-content-wrapper{
+			min-height: 0;
+		}
+
+		&.sm-no-corner{
+			&:after{
+				display: none;
+			}
+		}
+
+		&.article-page{
+			.pfs-content-wrapper{
+				margin-bottom: -90px;
+			}
+		}
+	}
+}

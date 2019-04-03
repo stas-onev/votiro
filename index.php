@@ -372,7 +372,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="news-section">
+			<section class="news-section d-none d-sm-block">
 				<div class="section-inner">
 					<div class="section-header-row">
 						<div class="item">
@@ -484,7 +484,7 @@
 				</div>
 			</section>
 			<?php include('footer.php'); ?>
-			<?php // include('notifications.php'); ?>
+			<?php include('notifications.php'); ?>
 			<?php include('page-parts/fullpage-tabs.inc.php'); ?>
 		</div>
 	</div>

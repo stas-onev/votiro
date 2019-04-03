@@ -1,0 +1,52 @@
+.solutions-list{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+
+	li{
+		padding-left: 45px;
+		font-weight: 500;
+		position: relative;
+		margin-right: 30px;
+		max-width: 270px;
+		min-height: 30px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
+		&:before{
+			content: '';
+			display: block;
+			width: 26px;
+			height: 30px;
+			position: absolute;
+			left: 4px;
+			top: 0.666em;
+			transform: translateY(-50%);
+			background: url(../img/icons/bullet.png) no-repeat;
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		flex-wrap: wrap;
+		margin-bottom: -40px;
+
+		li{
+			margin-bottom: 40px;
+			width: calc(50% - 15px);
+			max-width: 50%;
+			margin-right: 0;
+
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		li{
+			width: 100%;
+		}
+	}
+}

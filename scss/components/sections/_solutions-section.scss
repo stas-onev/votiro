@@ -1,0 +1,15 @@
+.solutions-section{
+	padding: 40px $col-width;
+	background: $navy;
+	color: #fff;
+
+	.section-inner{}
+
+	.section-caption{
+		max-width: 640px;
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 30px 20px;
+	}
+}

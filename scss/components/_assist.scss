@@ -34,6 +34,12 @@ $colors: (
 	justify-content: flex-end;
 }
 
+.img-responsive{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
 // 
 .d-none{
 	display: none !important;

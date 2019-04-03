@@ -58,10 +58,21 @@
 
 		.card-excerpt{
 			flex: auto;
+
+			@media screen and (max-width: 991px){
+				line-height: 1.3;
+				max-height: calc(1.3em * 6); // 6 lines
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
 		}
 
 		.card-footer{
 			margin-top: 45px;
+
+			@media screen and (max-width: 991px){
+				margin-top: 25px;
+			}
 		}
 	}
 
@@ -91,6 +102,28 @@
 
 		.card-caption{
 			color: $primary;
+		}
+	}
+
+	@media screen and (max-width: 575px){
+		.card-content{
+			.date,
+			.card-excerpt{
+				display: none;
+			}
+
+			.card-caption{
+				margin-bottom: 0;
+			}
+
+			.card-footer{
+				margin-top: 0;
+				height: 0;
+			}
+
+			.more-link{
+				font-size: 0;
+			}
 		}
 	}
 }

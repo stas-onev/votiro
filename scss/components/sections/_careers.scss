@@ -1,0 +1,230 @@
+.careers-text-section{
+	background: #f7f7f7;
+	padding: 90px $col-width 50px;
+
+	.section-inner{
+		display: flex;
+
+		.column{
+			width: 50%;
+
+			.section-caption{
+				padding-right: 50px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		padding: 30px $col-width;
+
+		.section-inner{
+			flex-wrap: wrap;
+
+			.column{
+				width: 100%;
+				margin-bottom: 15px;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+
+				.section-caption{
+					padding-right: 0;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 30px 20px;
+	}
+}
+
+.photos-section{
+	padding: 45px $col-width;
+
+	@media screen and (max-width: 767px){
+		padding: 35px 0 35px 20px;
+	}
+}
+
+.photos-list-wrapper{
+	@media screen and (max-width: 991px){
+		overflow-x: auto;
+	}
+}
+
+.photos-list{
+	display: flex;
+	width: calc(100% + 40px);
+	margin-left: -20px;
+	margin-right: -20px;
+
+	> .item{
+		padding: 0 20px;
+		width: 33.333%;
+
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		width: calc(100% + 20px);
+		margin-left: -10px;
+		margin-right: -10px;
+
+		> .item{
+			padding: 0 10px;
+			width: 250px;
+			flex: none;
+		}
+	}
+}
+
+.jobs-openings-section{
+	padding: 55px $col-width 40px;
+	background: #f7f7f7;
+
+	.section-columns{
+		display: flex;
+		width: calc(100% + 44px);
+		margin-left: -22px;
+		margin-right: -22px;
+		margin-bottom: -44px;
+
+		.column{
+			padding: 0 22px;
+			width: 50%;
+		}
+
+		@media screen and (max-width: 991px){
+			flex-wrap: wrap;
+
+			.column{
+				width: 100%;
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		padding: 30px $col-width;
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 30px 20px;
+
+		.section-columns{
+			margin-bottom: -30px;
+		}
+	}
+}
+
+.job-opening-card{
+	padding: 30px 50px;
+	background: #fff;
+	box-shadow: $shadow;
+	position: relative;
+	margin-bottom: 44px;
+
+	&:before{
+		content: '';
+		display: block;
+		width: 6px;
+		height: 77px;
+		background: $primary;
+		position: absolute;
+		left: 0;
+		top: 0;
+		transition: all $t linear;
+	}
+
+	.card-caption{
+		font-size: 1.111rem;
+		line-height: 1.2;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: $primary;
+		margin-bottom: 5px;
+	}
+
+	.card-location{
+		padding-left: 30px;
+		position: relative;
+		font-size: 1rem;
+		line-height: 22px;
+		margin-bottom: 30px;
+		color: $primary;
+
+		&:before{
+			content: '';
+			display: block;
+			width: 15px;
+			height: 22px;
+			background: url(../img/icons/location.png) no-repeat;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+
+	.card-content{
+		margin-bottom: 20px;
+	}
+
+	.card-hidden-content{
+		display: none;
+		padding-top: 45px;
+
+		.btn{
+			width: 100%;
+			max-width: 230px;
+		}
+	}
+
+	.card-read-more{
+		padding-left: 16px;
+		position: relative;
+		font-size: 1rem;
+		color: $primary;
+		font-weight: bold;
+		cursor: pointer;
+
+		&:before{
+			content: '';
+			display: block;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 6px 0 6px 7px;
+			border-color: transparent transparent transparent $primary;
+			position: absolute;
+			left: 0;
+			top: calc(50% - 6px);
+			transition: all $t;
+		}
+	}
+
+	&.opened{
+		&:before{
+			height: 300px;
+			max-height: 80%;
+		}
+
+		.card-read-more{
+			&:before{
+				transform: rotate(90deg);
+			}
+		}
+	}
+
+	@media screen and (max-width: 1199px){
+		padding: 20px 30px;
+	}
+
+	@media screen and (max-width: 767px){
+		margin-bottom: 30px;
+	}
+}

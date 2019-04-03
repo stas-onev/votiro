@@ -56,6 +56,27 @@
 				}
 			}
 		}
+
+		&.current-menu-item,
+		&.current-menu-parent{
+			a{
+				.item-icon{
+					svg *{
+						fill: $primary;
+					}
+				}
+
+				.item-text{
+					color: $primary;
+				}
+			}
+		}
+		
+		&.current-menu-item{
+			a{
+				cursor: default;
+			}
+		}
 	}
 
 	@media screen and (max-width: 1199px){

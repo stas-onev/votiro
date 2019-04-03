@@ -39,6 +39,11 @@ $(document).ready(function(){
 		}
 	});
 
+	// Careers Card
+	$('.job-opening-card .card-read-more').click(function(){
+		$(this).closest('.job-opening-card').toggleClass('opened').find('.card-hidden-content').stop().slideToggle(300);
+	});
+
 	// Sidebar Panels
 	var isOpenedPanel = false;
 	$('[data-toggle*="sidebar-panel"]').click(function(e){
@@ -141,6 +146,15 @@ $(document).ready(function(){
 		$( $(this).data('nav') + " > *" ).removeClass('current');
 	});
 
+	// Static Notifications
+	$('.static-notification-section .notification-close').click(function(){
+		$(this).closest('.static-notification-section').slideUp(300);
+
+		setTimeout(function(){
+			$(this).closest('.static-notification-section').remove();
+		}, 300);
+	});
+
 	// Fullpage Tabs
 	$("[data-fullpage-tab]").click(function(e){
 		e.preventDefault();
@@ -159,13 +173,36 @@ $(document).ready(function(){
 		return false;
 	});
 
+	// Modals
+	$('[data-modal]').click(function(e){
+		e.preventDefault();
+
+		var dest = $( $(this).data('modal') );
+
+		dest.addClass('visible');
+	});
+
+	$('.modal').click(function(e){
+		$(this).removeClass('visible');
+	});
+
+	$('.modal-dialog').click(function(e){
+		e.stopPropagation();
+	});
+
+	$('.modal-close').click(function(e){
+		e.preventDefault();
+
+		$(this).closest('.modal').removeClass('visible');
+	});
+
 	// TODO: ↓↓↓ remove this script ↓↓↓
 	// Current menu item highlithing
 	$(function () {
 		var location = window.location.href;
 		var cur_url = location.split('/').pop();
 
-		$('.top-nav li, .panel-nav li, .footer-nav li').each(function () {
+		$('.top-nav li, .panel-nav li, .footer-nav li, .sidebar-nav li').each(function () {
 			var link = $(this).find('a').attr('href');
 
 			// console.log(link);

@@ -1,0 +1,44 @@
+.patents-section{
+	padding: 60px $col-width;
+	background: #f7f7f7;
+
+	p{
+		max-width: 1000px;
+	}
+
+	@media screen and (max-width: 991px){
+		padding: 30px $col-width;
+		background: #fff;
+
+		.patents-list-wrapper{
+			overflow-x: auto;
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 30px 20px;
+	}
+}
+
+.patents-list{
+	color: $text-color;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+
+	li{
+		font-weight: 500;
+		color: $text-color;
+		margin-right: 30px;
+		white-space: nowrap;
+
+		&:last-child{
+			margin-right: 0;
+		}
+
+		strong{
+			font-size: 20px;
+		}
+	}
+}

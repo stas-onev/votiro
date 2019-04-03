@@ -31,7 +31,7 @@ a img{
 	display: flex;
 	flex-direction: column;
 
-	.page{
+	> .page{
 		flex: auto;
 		display: flex;
 		width: 100%;
@@ -103,44 +103,6 @@ a img{
 		.scrollable-container-inner{
 			width: 100%;
 			overflow: auto;
-		}
-	}
-}
-
-.modal{
-	.modal-content{
-		.modal-body{
-			padding: 30px 35px 50px;
-		}
-	}
-
-	.modal-dialog{
-		margin-top: 60px;
-
-		@media screen and (max-width: 575px){
-			width: calc(100% - 30px);
-			margin-left: auto;
-			margin-right: auto;
-		}
-	}
-
-	.modal-close{
-		position: absolute;
-		right: -22px;
-		top: -22px;
-		z-index: 5;
-		border-radius: 50%;
-		cursor: pointer;
-
-		i{
-			display: block;
-			cursor: pointer;
-		}
-	}
-
-	&.narrow{
-		.modal-dialog{
-			max-width: 340px;
 		}
 	}
 }
@@ -262,5 +224,6 @@ a img{
 
 	> .item{
 		padding: 0 15px;
+		max-width: 100%;
 	}
 }

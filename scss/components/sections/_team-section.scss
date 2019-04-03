@@ -1,0 +1,10 @@
+.team-section{
+	padding: 90px $col-width 70px;
+	background: #f7f7f7;
+
+	.section-inner{}
+
+	@media screen and (max-width: 767px){
+		padding: 30px 20px;
+	}
+}

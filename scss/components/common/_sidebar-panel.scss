@@ -249,3 +249,11 @@
 		opacity: 1;
 	}
 }
+
+.back-to-menu{
+	display: none;
+
+	@media screen and (max-width: 767px){
+		display: block;
+	}
+}

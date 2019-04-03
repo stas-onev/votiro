@@ -1,0 +1,137 @@
+.subcategories-nav-section{
+	padding: 65px 0;
+}
+
+.subcategories-nav-wrapper{
+	@media screen and (max-width: 1099px){
+		overflow-x: auto;
+		padding-bottom: 20px;
+		width: calc(100% - 30px);
+		margin: 0 auto -20px;
+
+		&::-webkit-scrollbar-track{
+			// box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+			border-radius: 3px;
+			background-color: transparent;
+		}
+
+		&::-webkit-scrollbar{
+			width: 2px;
+			height: 2px;
+			background-color: transparent;
+			margin-right: 0px;
+			border-radius: 3px;
+		}
+
+		&::-webkit-scrollbar-thumb{
+			border-radius: 3px;
+			// box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+			background-color: $primary;
+		}
+	}
+}
+
+.subcategories-nav{
+	display: flex;
+
+	.item{
+		flex: auto;
+		flex-basis: 100%;
+		padding: 0 35px;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		&:after{
+			content: '';
+			display: block;
+			width: 1px;
+			height: 100%;
+			background: #858585;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+
+		&:last-child{
+			&:after{
+				display: none;
+			}
+		}
+
+		.item-image{
+			flex: auto;
+			margin-bottom: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-width: 125px;
+			min-height: 135px;
+
+			img{
+				display: block;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+
+		.item-caption{
+			font-size: 1.111em;
+			line-height: 1.2;
+			color: #09214f;
+			text-transform: uppercase;
+			font-weight: 500;
+			padding-bottom: 15px;
+			position: relative;
+			margin-bottom: 15px;
+			transition: all $t;
+
+			&:after{
+				content: '';
+				display: block;
+				width: 60px;
+				height: 3px;
+				background: $primary;
+				position: absolute;
+				left: 0;
+				bottom: 0;
+			}
+		}
+
+		.learn-more{
+			font-size: 1em;
+			line-height: 1.2;
+			font-weight: 500;
+			color: $primary;
+			text-decoration: none;
+
+			&:after{
+				content: '';
+				display: block;
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+		}
+
+		&:hover{
+			.item-caption{
+				color: $primary;
+			}
+		}
+
+		@media screen and (max-width: 767px){
+			min-width: 210px;
+			padding: 0 20px;
+			flex: none;
+			width: auto;
+
+			&:first-child{
+				padding-left: 0;
+			}
+		}
+	}
+}

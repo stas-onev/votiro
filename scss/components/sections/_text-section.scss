@@ -1,0 +1,8 @@
+.text-section{
+	padding: 90px $col-width;
+	background: #f7f7f7;
+
+	@media screen and (max-width: 767px){
+		padding: 30px 20px;
+	}
+}

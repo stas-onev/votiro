@@ -288,7 +288,7 @@
 			<a href="#" class="back-to-menu" data-target="#panel-mobile-nav">Back to main menu</a>
 			<ul class="panel-nav">
 				<li>
-					<a href="#">
+					<a href="government-agencies.php">
 						<div class="item-icon">
 							<i class="icon-building-small"></i>
 						</div>
@@ -312,7 +312,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="financial-services.php">
 						<div class="item-icon">
 							<i class="icon-building-small"></i>
 						</div>
@@ -328,7 +328,7 @@
 					</a>
 				</li>
 			</ul>
-			<a href="#" class="panel-link">View all Industries &gt;</a>
+			<a href="solutions-by-industry.php" class="panel-link">View all Industries &gt;</a>
 		</div>
 	</div>
 	<div class="sidebar-panel" id="panel-mobile-nav">
@@ -366,7 +366,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#" data-toggle="sidebar-panel" data-target="#panel-solutions-by-industry">
+					<a href="solutions-by-industry.php" data-toggle="sidebar-panel" data-target="#panel-solutions-by-industry">
 						<span class="item-icon">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 229.4 208" style="enable-background:new 0 0 229.4 208;" xml:space="preserve">
 								<style type="text/css">

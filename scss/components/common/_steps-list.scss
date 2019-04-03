@@ -1,0 +1,105 @@
+.steps-list{
+	display: inline-flex;
+	flex-direction: column;
+	align-items: stretch;
+
+	.item{
+		margin-bottom: 40px;
+		display: flex;
+		align-items: center;
+
+		.item-number{
+			width: 86px;
+			border-right: 2px solid $primary;
+			font-size: 53px;
+			line-height: 50px;
+			flex: none;
+			font-weight: bold;
+			color: $text-color;
+			margin-right: 30px;
+		}
+
+		.item-text{
+			flex: auto;
+			color: $text-color;
+			min-width: 140px;
+		}
+
+		.item-icon{
+			flex: none;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-width: 123px;
+
+			img{
+				display: block;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	&.with-arrows{
+		.item{
+			align-items: flex-start;
+			position: relative;
+			margin-bottom: 60px;
+
+			&:after{
+				content: '';
+				display: block;
+				width: 35px;
+				height: 22px;
+				background: url(../img/icons/arrow-down.png) no-repeat;
+				position: absolute;
+				left: 86px;
+				top: 100%;
+				transform: translateX(-50%);
+			}
+
+			&:last-child{
+				margin-bottom: 0;
+
+				&:after{
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 991px){
+	.steps-list-wrapper{
+		overflow-x: auto;
+
+		.steps-list:not(.with-arrows){
+			flex-direction: row;
+
+			.item{
+				padding: 15px 12px;
+				background: #fff;
+				margin-right: 15px;
+				flex: none;
+				margin-bottom: 0;
+
+				&:last-child{
+					margin-right: 0;
+				}
+
+				.item-text,
+				.item-icon{
+					min-width: 0;
+				}
+
+				.item-text{
+					margin-right: 15px;
+				}
+			}
+		}
+	}
+}

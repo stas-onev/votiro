@@ -17,6 +17,15 @@ body{
 	}
 }
 
+.tpg p a{
+	font-weight: 500;
+	color: #055dfe;
+
+	&:hover{
+		color: $primary;
+	}
+}
+
 .tpg p,
 body .tpg-body-1,
 .tpg-note{
@@ -40,8 +49,7 @@ body .tpg-body-1,
 
 .tpg .tpg-note,
 .tpg-note{
-	font-size: 12px;
-	font-weight: 400;
+	font-size: 14px;
 }
 
 sup{
@@ -98,37 +106,49 @@ body .tpg-h3{
 	}
 }
 
-// .tpg h4,
-// body .tpg-h4{
-// 	font-size: 24px;
-// 	line-height: 1.25;
-// 	margin: 0 0 1.25em;
-// 	font-weight: 400;
+.tpg h4,
+body .tpg-h4{
+	font-size: 1.25em;
+	line-height: 1.25;
+	margin: 0 0 0.5em;
+	font-weight: 500;
 
-// 	&:last-child{
-// 		margin-bottom: 0;
-// 	}
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
 
-// 	@media screen and (max-width: 767px){
-// 		font-size: 18px;
-// 	}
-// }
+.tpg ul,
+body .tpg-ul{
+	list-style: none;
+	margin-bottom: 1.333em;
 
-// .tpg ul,
-// body .tpg-ul{
-// 	list-style: none;
-// 	margin-bottom: 24px;
+	li{
+		font-size: 1em;
+		line-height: 1.222em;
+		padding-left: 16px;
+		position: relative;
+		margin-bottom: 10px;
 
-// 	li{
-// 		font-size: 16px;
-// 		line-height: 24px;
+		&:last-child{
+			margin-bottom: 0;
+		}
 
-// 		&:before{
-// 			content: '•  ';
-// 			color: $primary;
-// 		}
-// 	}
-// }
+		&:before{
+			content: '•  ';
+			color: $text-color;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+}
+
+.tpg{
+	p + ul{
+		margin-top: -1em;
+	}
+}
 
 // .section-more-link{
 // 	font-size: 14px;
@@ -157,7 +177,7 @@ body .tpg-h3{
 		line-height: 1.25;
 		text-transform: uppercase;
 		font-weight: 700;
-		padding-bottom: 15px;
+		padding-bottom: 8px;
 		position: relative;
 
 		&:after{
@@ -169,6 +189,22 @@ body .tpg-h3{
 			position: absolute;
 			left: 0;
 			bottom: 0;
+		}
+	}
+
+	.sc-subtitle{
+		margin-top: 8px;
+		font-weight: 700;
+		font-size: 1rem;
+	}
+
+	&.primary-color{
+		color: $primary;
+	}
+
+	&.small-padding{
+		.sc-title{
+			padding-bottom: 8px;
 		}
 	}
 
@@ -194,6 +230,17 @@ body .tpg-h3{
 	&.no-uppercase{
 		.sc-title{
 			text-transform: none;
+		}
+	}
+
+	&.centered{
+		text-align: center;
+
+		.sc-title{
+			&:after{
+				left: 50%;
+				transform: translateX(-50%);
+			}
 		}
 	}
 
@@ -232,4 +279,8 @@ body .tpg-h3{
 			color: $primary;
 		}
 	}
+}
+
+.text-uppercase{
+	text-transform: uppercase !important;
 }

@@ -1,0 +1,151 @@
+.disarm-section{
+	padding: 80px $col-width;
+	background: #f7f7f7;
+
+	.section-inner{
+		display: flex;
+
+		.column{
+			width: calc(#{$col-width} * 5);
+
+			&:first-child{
+				width: calc(#{$col-width} * 6);
+				margin-right: $col-width;
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		padding: 30px $col-width;
+
+		.section-inner{
+			flex-direction: column;
+
+			.column{
+				width: 100% !important;
+				margin-right: 0 !important;
+				margin-bottom: 25px;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 30px 20px;
+	}
+}
+
+.disarm-files-list{
+	display: flex;
+	margin-top: 60px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: calc(100% + 30px);
+	margin-left: -15px;
+	margin-right: -15px;
+	max-width: 710px;
+	margin-bottom: -30px;
+
+	> .item{
+		flex: auto;
+		padding: 0 15px;
+		max-width: 300px;
+		width: 50%;
+		margin-bottom: 30px;
+	}
+
+	@media screen and (max-width: 991px){
+		max-width: none;
+	}
+
+	@media screen and (max-width: 767px){
+		width: calc(100% + 14px);
+		margin-left: -7px;
+		margin-right: -7px;
+		margin-bottom: -14px;
+		margin-top: 20px;
+
+		> .item{
+			padding: 0 7px;
+			margin-bottom: 14px;
+		}
+	}
+}
+
+.file-sample-block{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 25px 30px;
+	border: 1px solid transparent;
+	transition: all $t;
+	cursor: pointer;
+	height: 100%;
+
+	.block-image{
+		margin-bottom: 20px;
+		flex: none;
+
+		img{
+			display: block;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	.block-caption{
+		font-weight: 500;
+		text-align: center;
+		flex: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&:hover{
+		background: #fff;
+		border-color: #ccc;
+	}
+
+	@media screen and (max-width: 1199px){
+		padding: 15px;
+	}
+
+	@media screen and (max-width: 767px){
+		background: #fff;
+		border-color: #ccc;
+		padding: 15px 10px;
+	}
+}
+
+.upload-area{
+	border: 3px dashed $text-color;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 80px 60px 60px;
+	margin-top: 25px;
+
+	.area-inner{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		p{
+			font-size: 1.666rem;
+			line-height: 1.666;
+			margin-bottom: 50px;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		.btn{
+			width: 100%;
+			max-width: 230px;
+		}
+	}
+}

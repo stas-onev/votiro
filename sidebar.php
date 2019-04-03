@@ -41,7 +41,7 @@
 			</a>
 		</li>
 		<li>
-			<a href="#" data-toggle="sidebar-panel" data-target="#panel-solutions-by-industry">
+			<a href="solutions-by-industry.php" data-toggle="sidebar-panel" data-target="#panel-solutions-by-industry">
 				<span class="item-icon">
 					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 229.4 208" style="enable-background:new 0 0 229.4 208;" xml:space="preserve">
 						<style type="text/css">
@@ -62,7 +62,7 @@
 			</a>
 		</li>
 		<li>
-			<a href="#">
+			<a href="knowledge-base.php">
 				<span class="item-icon">
 					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 161.3 135.2" style="enable-background:new 0 0 161.3 135.2;" xml:space="preserve">
 						<style type="text/css">
@@ -85,7 +85,7 @@
 			</a>
 		</li>
 		<li>
-			<a href="#">
+			<a href="about.php">
 				<span class="item-icon">
 					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 208 208" style="enable-background:new 0 0 208 208;" xml:space="preserve">
 						<style type="text/css">
@@ -100,7 +100,7 @@
 			</a>
 		</li>
 		<li>
-			<a href="#">
+			<a href="technology.php">
 				<span class="item-icon">
 					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 161.3 144.3" style="enable-background:new 0 0 161.3 144.3;" xml:space="preserve">
 						<style type="text/css">
