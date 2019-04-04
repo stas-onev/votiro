@@ -1,0 +1,12 @@
+.gray-section{
+	padding: 80px $col-width;
+	background: #f7f7f7;
+
+	@media screen and (max-width: 991px){
+		padding: 40px $col-width;
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 30px 20px;
+	}
+}

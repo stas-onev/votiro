@@ -37,7 +37,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="careers-text-section">
+			<section class="text-columns-section">
 				<div class="section-inner">
 					<div class="column">
 						<div class="section-caption no-uppercase">

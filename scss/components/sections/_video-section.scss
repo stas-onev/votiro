@@ -1,0 +1,26 @@
+.video-section{
+	padding: 65px $col-width;
+
+	.section-inner{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		img,
+		iframe,
+		video{
+			display: block;
+			border: 0;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		padding: 40px $col-width;
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 30px 20px;
+	}
+}

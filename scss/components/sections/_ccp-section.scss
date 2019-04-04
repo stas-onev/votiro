@@ -1,0 +1,32 @@
+.ccp-section{
+	.section-inner{
+		display: flex;
+		justify-content: space-between;
+
+		.column{
+			&:first-child{
+				max-width: 640px;
+				margin-right: 60px;
+			}
+
+			&:last-child{
+				width: 511px;
+				flex: none;
+			}
+		}
+
+		@media screen and (max-width: 1199px){
+			flex-direction: column;
+
+			.column{
+				width: 100% !important;
+				margin-right: 0 !important;
+				margin-bottom: 60px;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,45 @@
+.text-columns-section{
+	background: #f7f7f7;
+	padding: 90px $col-width 50px;
+
+	&.white-bg{
+		background: #fff;
+	}
+
+	.section-inner{
+		display: flex;
+
+		.column{
+			width: 50%;
+
+			.section-caption{
+				padding-right: 50px;
+			}
+		}
+	}
+
+	@media screen and (max-width: 991px){
+		padding: 30px $col-width;
+
+		.section-inner{
+			flex-wrap: wrap;
+
+			.column{
+				width: 100%;
+				margin-bottom: 15px;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+
+				.section-caption{
+					padding-right: 0;
+				}
+			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		padding: 30px 20px;
+	}
+}

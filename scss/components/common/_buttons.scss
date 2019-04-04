@@ -46,6 +46,18 @@
 		}
 	}
 
+	&.btn-azure{
+		background: #169bd5;
+
+		&:hover{
+			background: lighten(#169bd5, 10%);
+		}
+	}
+
+	&.fullwidth{
+		width: 100%;
+	}
+
 	&.btn-small{
 		border-radius: 3px;
 		padding: 4px 12px;

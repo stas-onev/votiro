@@ -29,6 +29,10 @@
 @import "components/sections/careers";
 @import "components/sections/contacts";
 @import "components/sections/partners";
+@import "components/sections/text-columns-section";
+@import "components/sections/gray-section";
+@import "components/sections/ccp-section";
+@import "components/sections/video-section";
 
 // Footer
 @import "components/footer/footer";
@@ -57,3 +61,5 @@
 @import "components/common/steps-list";
 @import "components/common/recent-post-block";
 @import "components/common/pagination";
+@import "components/common/feature-card";
+@import "components/common/credits-list";
