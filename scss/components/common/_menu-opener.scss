@@ -29,12 +29,19 @@
 		}
 	}
 
-	.opener-text{
+	.opener-text,
+	.close-text{
 		font-size: 16px;
 		line-height: 1;
 		margin-top: 5px;
 		transition: all $t;
 		font-weight: 400;
+		transition: all $t;
+	}
+
+	.close-text{
+		margin-top: -1em;
+		opacity: 0;
 	}
 
 	&:hover{
@@ -70,6 +77,14 @@
 					width: 35px;
 				}
 			}
+		}
+
+		.opener-text{
+			opacity: 0;
+		}
+
+		.close-text{
+			opacity: 1;
 		}
 	}
 }

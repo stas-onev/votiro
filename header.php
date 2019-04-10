@@ -28,6 +28,7 @@
 							<div class="bar"></div>
 						</div>
 						<span class="opener-text">menu</span>
+						<span class="close-text">close</span>
 					</div>
 				</div>
 				<div class="header-block">

@@ -81,7 +81,7 @@
 						</div>
 						<div class="upload-area">
 							<div class="area-inner">
-								<p>Drag File Here <br>OR <br>Upload File</p>
+								<p><span>Drag File Here <br>OR <br></span>Upload File</p>
 								<button class="btn">Try me!</button>
 							</div>
 						</div>

@@ -1,0 +1,13 @@
+.cf-gallery{
+	.mix{
+		transition: all 0.4s;
+
+		&.not-visible{
+			transform: scale(0);
+			transform-origin: 50% 0;
+			width: 0;
+			height: 0;
+			padding: 0;
+		}
+	}
+}

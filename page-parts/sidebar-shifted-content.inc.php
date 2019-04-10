@@ -16,7 +16,7 @@
 					<div class="item-name">Let’s Talk!</div>
 					<div class="item-description">We would love to <br>hear from you</div>
 				</div>
-				<a href="#" class="item blue">
+				<a href="disarm-a-file.php" class="item blue">
 					<div class="item-name">Disarm a File</div>
 					<div class="item-description">With Our Advanced Patented CDR Technology.</div>
 				</a>
@@ -387,7 +387,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="knowledge-base.php">
 						<span class="item-icon">
 							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 161.3 135.2" style="enable-background:new 0 0 161.3 135.2;" xml:space="preserve">
 								<style type="text/css">

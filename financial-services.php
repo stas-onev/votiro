@@ -3,7 +3,7 @@
 	<div class="page">
 		<?php include('sidebar.php'); ?>
 		<div class="page-content">
-			<section class="page-first-screen" style="background-image: url(img/pages-images/solutions-pattern.png);">
+			<section class="page-first-screen financial-services-page" style="background-image: url(img/pages-images/solutions-pattern.png);">
 				<div class="page-first-screen-inner">
 					<ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
 						<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">

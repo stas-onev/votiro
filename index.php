@@ -7,14 +7,14 @@
 				<div class="section-inner">
 					<div class="section-text tpg">
 						<h1>You may trust your users, <br class="d-none d-lg-inline">but can you trust their files?</h1>
-						<h3>Votiro File Disarmer – Securing Your Company’s Digital Journey</h3>
+						<h2>Votiro File Disarmer – Securing Your Company’s Digital Journey</h2>
 						<p>In a world where unknown exploits are evading even the most trusted security systems, File Disarmer is the only solution to sanitize your files of any malicious threats, no matter where they come from.</p>
 					</div>
 					<div class="section-hidden-tabs section-tabs-container">
-						<div class="close-tabs" data-nav="#first-screen-section-nav">Close</div>
 						<div class="tab" id="government-agencies">
 							<div class="tab-inner">
 								<div class="tab-content tpg">
+									<div class="close-tabs" data-nav="#first-screen-section-nav">Close</div>
 									<div class="section-caption">
 										<h3 class="sc-title">Government agencies</h3>
 									</div>
@@ -31,6 +31,7 @@
 						<div class="tab" id="healthcare">
 							<div class="tab-inner">
 								<div class="tab-content tpg">
+									<div class="close-tabs" data-nav="#first-screen-section-nav">Close</div>
 									<div class="section-caption">
 										<h3 class="sc-title">Healthcare</h3>
 									</div>
@@ -47,6 +48,7 @@
 						<div class="tab" id="insurance">
 							<div class="tab-inner">
 								<div class="tab-content tpg">
+									<div class="close-tabs" data-nav="#first-screen-section-nav">Close</div>
 									<div class="section-caption">
 										<h3 class="sc-title">Insurance</h3>
 									</div>
@@ -63,6 +65,7 @@
 						<div class="tab" id="financial-services">
 							<div class="tab-inner">
 								<div class="tab-content tpg">
+									<div class="close-tabs" data-nav="#first-screen-section-nav">Close</div>
 									<div class="section-caption">
 										<h3 class="sc-title">Financial services</h3>
 									</div>
@@ -79,6 +82,7 @@
 						<div class="tab" id="critical-infrastructure">
 							<div class="tab-inner">
 								<div class="tab-content tpg">
+									<div class="close-tabs" data-nav="#first-screen-section-nav">Close</div>
 									<div class="section-caption">
 										<h3 class="sc-title">Critical infrastructure</h3>
 									</div>
@@ -131,7 +135,7 @@
 				<div class="section-inner">
 					<div class="section-text tpg">
 						<h1>You may trust your users, but can you trust their files?</h1>
-						<h3>Votiro File Disarmer – Securing Your Company’s Digital Journey</h3>
+						<h2>Votiro File Disarmer – Securing Your Company’s Digital Journey</h2>
 					</div>
 					<div class="section-nav">
 						<div class="section-nav-inner">
@@ -182,20 +186,18 @@
 					<div class="section-slider">
 						<div class="logos-slider">
 							<div class="slider-track">
-								<div class="track-inner">
-									<div class="slide"><img src="img/customers/888.png" alt=""></div>
-									<div class="slide"><img src="img/customers/alyn.png" alt=""></div>
-									<div class="slide"><img src="img/customers/discount.png" alt=""></div>
-									<div class="slide"><img src="img/customers/electric.png" alt=""></div>
-									<div class="slide"><img src="img/customers/fuji.png" alt=""></div>
-									<div class="slide"><img src="img/customers/IAI.png" alt=""></div>
-									<div class="slide"><img src="img/customers/Israel_bank.png" alt=""></div>
-									<div class="slide"><img src="img/customers/motorola.png" alt=""></div>
-									<div class="slide"><img src="img/customers/NEC.png" alt=""></div>
-									<div class="slide"><img src="img/customers/ntt_data.png" alt=""></div>
-									<div class="slide"><img src="img/customers/takamatsu.png" alt=""></div>
-									<div class="slide"><img src="img/customers/TLV_stock.png" alt=""></div>
-								</div>
+								<div class="slide"><img src="img/customers/888.png" alt=""></div>
+								<div class="slide"><img src="img/customers/alyn.png" alt=""></div>
+								<div class="slide"><img src="img/customers/discount.png" alt=""></div>
+								<div class="slide"><img src="img/customers/electric.png" alt=""></div>
+								<div class="slide"><img src="img/customers/fuji.png" alt=""></div>
+								<div class="slide"><img src="img/customers/IAI.png" alt=""></div>
+								<div class="slide"><img src="img/customers/Israel_bank.png" alt=""></div>
+								<div class="slide"><img src="img/customers/motorola.png" alt=""></div>
+								<div class="slide"><img src="img/customers/NEC.png" alt=""></div>
+								<div class="slide"><img src="img/customers/ntt_data.png" alt=""></div>
+								<div class="slide"><img src="img/customers/takamatsu.png" alt=""></div>
+								<div class="slide"><img src="img/customers/TLV_stock.png" alt=""></div>
 							</div>
 						</div>
 					</div>
@@ -208,7 +210,7 @@
 							<img src="img/big-icons/medal.png" alt="">
 						</div>
 						<div class="section-text-inner">
-							<h2>Next generation cdr technology</h2>
+							<h2 class="tpg-h1">Next generation cdr technology</h2>
 							<h3>Standard Security Systems Stand Powerless in the Face of Undisclosed Threats. But They Can and Should Be Stopped</h3>
 							<p>File-borne sophisticated malware can easily penetrate any organization by exploiting standard digital transactions. Votiro’s File Disarmer is the only proactive defense to stop those threats before they even reach your network</p>
 						</div>
@@ -394,7 +396,9 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>
@@ -410,7 +414,9 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>
@@ -426,7 +432,9 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>
@@ -442,7 +450,9 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>
@@ -455,7 +465,7 @@
 			<section class="partners-section">
 				<div class="section-inner">
 					<div class="section-text">
-						<div class="section-caption no-uppercase">
+						<div class="section-caption small">
 							<h3 class="sc-title">Among Our Partners</h3>
 						</div>
 						<a href="#" class="btn d-none d-lg-inline-flex">View all and apply</a>
@@ -463,18 +473,16 @@
 					<div class="section-slider">
 						<div class="logos-slider">
 							<div class="slider-track">
-								<div class="track-inner">
-									<div class="slide"><img src="img/partners/vmware.png" alt=""></div>
-									<div class="slide"><img src="img/partners/adobe.png" alt=""></div>
-									<div class="slide"><img src="img/partners/acer.png" alt=""></div>
-									<div class="slide"><img src="img/partners/symantec.png" alt=""></div>
-									<div class="slide"><img src="img/partners/autodesk.png" alt=""></div>
-									<div class="slide"><img src="img/partners/vmware.png" alt=""></div>
-									<div class="slide"><img src="img/partners/adobe.png" alt=""></div>
-									<div class="slide"><img src="img/partners/acer.png" alt=""></div>
-									<div class="slide"><img src="img/partners/symantec.png" alt=""></div>
-									<div class="slide"><img src="img/partners/autodesk.png" alt=""></div>
-								</div>
+								<div class="slide"><img src="img/partners/vmware.png" alt=""></div>
+								<div class="slide"><img src="img/partners/adobe.png" alt=""></div>
+								<div class="slide"><img src="img/partners/acer.png" alt=""></div>
+								<div class="slide"><img src="img/partners/symantec.png" alt=""></div>
+								<div class="slide"><img src="img/partners/autodesk.png" alt=""></div>
+								<div class="slide"><img src="img/partners/vmware.png" alt=""></div>
+								<div class="slide"><img src="img/partners/adobe.png" alt=""></div>
+								<div class="slide"><img src="img/partners/acer.png" alt=""></div>
+								<div class="slide"><img src="img/partners/symantec.png" alt=""></div>
+								<div class="slide"><img src="img/partners/autodesk.png" alt=""></div>
 							</div>
 						</div>
 					</div>
@@ -484,7 +492,7 @@
 				</div>
 			</section>
 			<?php include('footer.php'); ?>
-			<?php include('notifications.php'); ?>
+			<?php // include('notifications.php'); ?>
 			<?php include('page-parts/fullpage-tabs.inc.php'); ?>
 		</div>
 	</div>

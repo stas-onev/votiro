@@ -50,18 +50,20 @@
 						<div class="item">
 							<div class="tabs-nav-wrapper">
 								<ul class="tabs-nav">
-									<li><a href="#">Webinars</a></li>
-									<li><a href="#">Brocures</a></li>
-									<li><a href="#">Case Studies</a></li>
-									<li class="current-menu-item"><a href="#">News &amp; Updates</a></li>
-									<li><a href="#">Events</a></li>
-									<li><a href="#">Latest Posts</a></li>
+									<li data-cat-url="all" data-filter=".mix" class="current-menu-item"><a href="#">Show All</a></li>
+									<li data-cat-url="webinars" data-filter=".webinars"><a href="#">Webinars</a></li>
+									<li data-cat-url="brocures" data-filter=".brocures"><a href="#">Brocures</a></li>
+									<li data-cat-url="case-studies" data-filter=".case-studies"><a href="#">Case Studies</a></li>
+									<li data-cat-url="news-and-updates" data-filter=".news-and-updates"><a href="#">News &amp; Updates</a></li>
+									<li data-cat-url="events" data-filter=".events"><a href="#">Events</a></li>
+									<li data-cat-url="latest-posts" data-filter=".latest-posts"><a href="#">Latest Posts</a></li>
+									<li class="underline"></li>
 								</ul>
 							</div>
 						</div>
 					</div>
-					<div class="cards-list columns-4 lg-columns-2 xs-columns-1">
-						<div class="item">
+					<div class="cards-list columns-4 lg-columns-2 xs-columns-1 cf-gallery">
+						<div class="item mix webinars latest-posts">
 							<div class="news-card">
 								<div class="card-image">
 									<!-- Image Size: 470x268 -->
@@ -70,14 +72,16 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="item">
+						<div class="item mix brocures">
 							<div class="news-card">
 								<div class="card-image">
 									<!-- Image Size: 470x268 -->
@@ -86,14 +90,16 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="item">
+						<div class="item mix brocures">
 							<div class="news-card">
 								<div class="card-image">
 									<!-- Image Size: 470x268 -->
@@ -102,14 +108,16 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="item">
+						<div class="item mix webinars brocures">
 							<div class="news-card">
 								<div class="card-image">
 									<!-- Image Size: 470x268 -->
@@ -118,14 +126,16 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="item">
+						<div class="item mix case-studies">
 							<div class="news-card">
 								<div class="card-image">
 									<!-- Image Size: 470x268 -->
@@ -134,14 +144,16 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="item">
+						<div class="item mix case-studies latest-posts">
 							<div class="news-card">
 								<div class="card-image">
 									<!-- Image Size: 470x268 -->
@@ -150,14 +162,16 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="item">
+						<div class="item mix events webinars">
 							<div class="news-card">
 								<div class="card-image">
 									<!-- Image Size: 470x268 -->
@@ -166,14 +180,16 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div class="item">
+						<div class="item mix events">
 							<div class="news-card">
 								<div class="card-image">
 									<!-- Image Size: 470x268 -->
@@ -182,7 +198,9 @@
 								<div class="card-content">
 									<p class="date">01.02.2019</p>
 									<h5 class="card-caption">Votiro disarmer for box - putting an end to zero-day explotis</h5>
-									<p class="card-excerpt">Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									<div class="card-excerpt">
+										<p>Votiro File Disarmer for Box provides a necessary added security layer to ensure all shared files do not contain malware, preventing content threats such as ransomware and targeted attacks. The Votiro Disarmer’s disruptive new technology can neutralize any known or unknown (zero-day) exploit. Once deployed, every file uploaded to the Box repository goes through the Votiro sanitization process, making every file circulating in your organization safe to open and use.</p>
+									</div>
 									<div class="card-footer">
 										<a href="#" class="more-link">Download One-pager</a>
 									</div>

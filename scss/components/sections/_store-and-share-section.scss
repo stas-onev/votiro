@@ -76,7 +76,7 @@
 			&:before{
 				content: '';
 				display: block;
-				width: 60px;
+				width: 65px;
 				height: 3px;
 				background: $primary;
 				position: absolute;
@@ -137,6 +137,7 @@
 			align-items: center;
 			justify-content: center;
 			margin-bottom: 12px;
+			max-width: 171px;
 
 			img{
 				display: block;

@@ -13,7 +13,13 @@
 	}
 
 	@media screen and (max-width: 767px){
-		padding: 90px 20px 30px;
+		padding: 105px 20px 30px;
+
+		.section-form{
+			.btn{
+				margin: 20px auto 0;
+			}
+		}
 	}
 }
 
@@ -96,7 +102,7 @@
 		&:after{
 			content: '';
 			display: block;
-			width: 60px;
+			width: 65px;
 			height: 2px;
 			background: $primary;
 			position: absolute;

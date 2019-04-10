@@ -21,7 +21,7 @@
 		border-color: $navy transparent transparent transparent;
 		position: absolute;
 		left: 50%;
-		top: 100%;
+		top: calc(100% - 1px);
 		transform: translateX(-50%);
 	}
 
@@ -34,6 +34,10 @@
 		.section-content{
 			width: 58%;
 			padding: 50px 0;
+
+			&.bigger-padding{
+				padding-top: 80px;
+			}
 
 			p{
 				max-width: 766px;
@@ -65,6 +69,18 @@
 				position: absolute;
 				right: 0;
 				top: 0;
+			}
+		}
+	}
+
+	&.careers-page,
+	&.government-agencies-page,
+	&.financial-services-page{
+		.pfs-content-wrapper{
+			.section-image{
+				@media screen and (max-width: 767px){
+					max-width: 300px;
+				}
 			}
 		}
 	}
@@ -111,6 +127,10 @@
 				@media screen and (max-width: 991px){
 					max-width: 260px;
 					margin-bottom: -100px;
+				}
+
+				@media screen and (max-width: 575px){
+					max-width: 210px;
 				}
 			}
 		}

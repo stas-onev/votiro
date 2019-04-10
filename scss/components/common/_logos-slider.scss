@@ -1,20 +1,12 @@
 .logos-slider{
-	width: 100%;
+	width: 99.9%;
 	overflow: hidden;
+	position: relative;
 
 	.slider-track{
-		display: block;
+		display: flex;
 		position: relative;
-		width: 10000%;
-		left: 0%;
-
-		.track-inner{
-			position: relative;
-			width: 2%;
-			display: flex;
-			justify-content: flex-start;
-			animation: logos-slider 20s infinite linear;
-		}
+		// width: 2280px;
 	}
 
 	.slide{
@@ -22,7 +14,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		width: 190px;
+		width: 180px;
 		cursor: pointer;
 
 		&:first-child{
@@ -47,10 +39,18 @@
 			}
 		}
 	}
+
+	@media screen and (max-width: 991px){
+		padding-left: 25px;
+	}
+
+	@media screen and (max-width: 767px){
+		overflow-x: auto;
+	}
 }
 
-@keyframes logos-slider {
-	0% { left: 0%; }
-	50% { left: -1%; }
-	100% { left: 0%; }
-}
+// @keyframes logos-slider {
+// 	0% { left: 0%; }
+// 	50% { left: -1%; }
+// 	100% { left: 0%; }
+// }

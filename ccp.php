@@ -150,7 +150,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="video-section">
+			<section class="video-section d-none d-md-block">
 				<div class="section-inner">
 					<img src="img/pages-images/video-big.png" alt="">
 				</div>

@@ -17,6 +17,11 @@
 			font-weight: bold;
 			color: $text-color;
 			margin-right: 30px;
+
+			@media screen and (max-width: 767px){
+				width: 77px;
+				margin-right: 13px;
+			}
 		}
 
 		.item-text{
@@ -69,6 +74,16 @@
 					display: none;
 				}
 			}
+
+			@media screen and (max-width: 767px){
+				.item-icon{
+					display: none;
+				}
+
+				&:after{
+					top: calc(100% + 30px - 11px);
+				}
+			}
 		}
 	}
 
@@ -80,6 +95,30 @@
 
 			&:last-child{
 				margin-bottom: 0;
+			}
+
+			.item-icon{
+				min-width: 100px;
+				margin-left: 23px;
+			}
+		}
+
+		@media screen and (max-width: 767px){
+			.item{
+				max-width: 300px;
+
+				.item-icon{
+					display: none;
+				}
+
+				.item-text{
+					margin-right: 0 !important;
+				}
+
+				.item-number{
+					width: 77px;
+					margin-right: 13px;
+				}
 			}
 		}
 	}

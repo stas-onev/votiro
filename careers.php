@@ -3,7 +3,7 @@
 	<div class="page">
 		<?php include('sidebar.php'); ?>
 		<div class="page-content">
-			<section class="page-first-screen sm-no-corner">
+			<section class="page-first-screen sm-no-corner careers-page">
 				<div class="page-first-screen-inner">
 					<ol class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
 						<li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">

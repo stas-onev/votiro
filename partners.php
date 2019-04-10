@@ -23,7 +23,7 @@
 						<div class="section-content tpg">
 							<h1>Partner with Votiro</h1>
 							<br>
-							<p>We partner with industry-leading business and technology partners to create the best protection for end-users against known and undisclosed content threats.</p>
+							<p>We partner with industry-leading business and technology <br>partners to create the best protection for end-users against <br>known and undisclosed content threats.</p>
 						</div>
 						<div class="section-image">
 							<img src="img/pages-images/partners.png" alt="">
@@ -59,9 +59,9 @@
 						<div class="partners-list">
 							<div class="item">
 								<div class="partner-card">
-									<div class="card-logo">
+									<a href="#" target="_blank" class="card-logo">
 										<img src="img/pages-images/acer.png" alt="">
-									</div>
+									</a>
 									<div class="card-content">
 										<p>Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer’s products include desktop PCs, laptop PCs (Which can be further subdivided into clamshell, 2-in-1, convertible and Chromebook), tablets, servers, storage devices, Virtual Reality devices, displays, smartphones and peripherals.</p>
 									</div>
@@ -69,9 +69,9 @@
 							</div>
 							<div class="item">
 								<div class="partner-card">
-									<div class="card-logo">
+									<a href="#" target="_blank" class="card-logo">
 										<img src="img/pages-images/acer.png" alt="">
-									</div>
+									</a>
 									<div class="card-content">
 										<p>Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer’s products include desktop PCs, laptop PCs (Which can be further subdivided into clamshell, 2-in-1, convertible and Chromebook), tablets, servers, storage devices, Virtual Reality devices, displays, smartphones and peripherals.</p>
 									</div>
@@ -79,9 +79,9 @@
 							</div>
 							<div class="item">
 								<div class="partner-card">
-									<div class="card-logo">
+									<a href="#" target="_blank" class="card-logo">
 										<img src="img/pages-images/acer.png" alt="">
-									</div>
+									</a>
 									<div class="card-content">
 										<p>Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer’s products include desktop PCs, laptop PCs (Which can be further subdivided into clamshell, 2-in-1, convertible and Chromebook), tablets, servers, storage devices, Virtual Reality devices, displays, smartphones and peripherals.</p>
 									</div>
@@ -89,9 +89,9 @@
 							</div>
 							<div class="item">
 								<div class="partner-card">
-									<div class="card-logo">
+									<a href="#" target="_blank" class="card-logo">
 										<img src="img/pages-images/acer.png" alt="">
-									</div>
+									</a>
 									<div class="card-content">
 										<p>Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer’s products include desktop PCs, laptop PCs (Which can be further subdivided into clamshell, 2-in-1, convertible and Chromebook), tablets, servers, storage devices, Virtual Reality devices, displays, smartphones and peripherals.</p>
 									</div>
@@ -99,9 +99,9 @@
 							</div>
 							<div class="item">
 								<div class="partner-card">
-									<div class="card-logo">
+									<a href="#" target="_blank" class="card-logo">
 										<img src="img/pages-images/acer.png" alt="">
-									</div>
+									</a>
 									<div class="card-content">
 										<p>Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer’s products include desktop PCs, laptop PCs (Which can be further subdivided into clamshell, 2-in-1, convertible and Chromebook), tablets, servers, storage devices, Virtual Reality devices, displays, smartphones and peripherals.</p>
 									</div>
@@ -109,9 +109,9 @@
 							</div>
 							<div class="item">
 								<div class="partner-card">
-									<div class="card-logo">
+									<a href="#" target="_blank" class="card-logo">
 										<img src="img/pages-images/acer.png" alt="">
-									</div>
+									</a>
 									<div class="card-content">
 										<p>Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer’s products include desktop PCs, laptop PCs (Which can be further subdivided into clamshell, 2-in-1, convertible and Chromebook), tablets, servers, storage devices, Virtual Reality devices, displays, smartphones and peripherals.</p>
 									</div>
@@ -119,9 +119,9 @@
 							</div>
 							<div class="item">
 								<div class="partner-card">
-									<div class="card-logo">
+									<a href="#" target="_blank" class="card-logo">
 										<img src="img/pages-images/acer.png" alt="">
-									</div>
+									</a>
 									<div class="card-content">
 										<p>Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer’s products include desktop PCs, laptop PCs (Which can be further subdivided into clamshell, 2-in-1, convertible and Chromebook), tablets, servers, storage devices, Virtual Reality devices, displays, smartphones and peripherals.</p>
 									</div>
@@ -129,9 +129,9 @@
 							</div>
 							<div class="item">
 								<div class="partner-card">
-									<div class="card-logo">
+									<a href="#" target="_blank" class="card-logo">
 										<img src="img/pages-images/acer.png" alt="">
-									</div>
+									</a>
 									<div class="card-content">
 										<p>Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer’s products include desktop PCs, laptop PCs (Which can be further subdivided into clamshell, 2-in-1, convertible and Chromebook), tablets, servers, storage devices, Virtual Reality devices, displays, smartphones and peripherals.</p>
 									</div>
@@ -139,9 +139,9 @@
 							</div>
 							<div class="item">
 								<div class="partner-card">
-									<div class="card-logo">
+									<a href="#" target="_blank" class="card-logo">
 										<img src="img/pages-images/acer.png" alt="">
-									</div>
+									</a>
 									<div class="card-content">
 										<p>Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer’s products include desktop PCs, laptop PCs (Which can be further subdivided into clamshell, 2-in-1, convertible and Chromebook), tablets, servers, storage devices, Virtual Reality devices, displays, smartphones and peripherals.</p>
 									</div>
@@ -149,9 +149,9 @@
 							</div>
 							<div class="item">
 								<div class="partner-card">
-									<div class="card-logo">
+									<a href="#" target="_blank" class="card-logo">
 										<img src="img/pages-images/acer.png" alt="">
-									</div>
+									</a>
 									<div class="card-content">
 										<p>Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer’s products include desktop PCs, laptop PCs (Which can be further subdivided into clamshell, 2-in-1, convertible and Chromebook), tablets, servers, storage devices, Virtual Reality devices, displays, smartphones and peripherals.</p>
 									</div>
@@ -159,9 +159,9 @@
 							</div>
 							<div class="item">
 								<div class="partner-card">
-									<div class="card-logo">
+									<a href="#" target="_blank" class="card-logo">
 										<img src="img/pages-images/acer.png" alt="">
-									</div>
+									</a>
 									<div class="card-content">
 										<p>Acer is a Taiwanese multinational hardware and electronics corporation specializing in advanced electronics technology and is headquartered in Xizhi, New Taipei City, Taiwan. Acer’s products include desktop PCs, laptop PCs (Which can be further subdivided into clamshell, 2-in-1, convertible and Chromebook), tablets, servers, storage devices, Virtual Reality devices, displays, smartphones and peripherals.</p>
 									</div>

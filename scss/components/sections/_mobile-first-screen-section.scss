@@ -23,7 +23,7 @@
 			.item{
 				width: 300px;
 				flex: none;
-				padding: 25px 33px;
+				padding: 27px 33px;
 				border: 1px solid #fff;
 				margin-right: 15px;
 				transition: all $t;
@@ -54,7 +54,7 @@
 					&:after{
 						content: '';
 						display: block;
-						width: 60px;
+						width: 65px;
 						height: 3px;
 						background: $primary;
 						position: absolute;

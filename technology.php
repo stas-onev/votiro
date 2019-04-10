@@ -24,7 +24,7 @@
 							<h1>Award-Winning Patented Content Disarm and Reconstruction Technology</h1>
 							<br>
 							<p>You’re probably well protected against identifiable threats. But what about undisclosed and zero-day exploits?</p>
-							<a href="#" class="btn">Get a free trial</a>
+							<a href="#" class="btn" data-toggle="sidebar-panel" data-target="#panel-lets-start">Get a free trial</a>
 						</div>
 						<div class="section-image">
 							<img src="img/pages-images/technology.png" alt="">

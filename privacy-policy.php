@@ -20,7 +20,7 @@
 						</li>
 					</ol>
 					<div class="pfs-content-wrapper">
-						<div class="section-content tpg">
+						<div class="section-content bigger-padding tpg">
 							<h1>Privacy Policy</h1>
 						</div>
 					</div>

@@ -30,7 +30,7 @@
 							<h1>Disarmer for Email</h1>
 							<br>
 							<p>Disarming your email attachments from any known and unknown threats</p>
-							<a href="#" class="btn">Get a Free Trial</a>
+							<a href="#" class="btn text-medium">Get a Free Trial</a>
 						</div>
 						<div class="section-image">
 							<img src="img/pages-images/secure-email-gateway.png" alt="">
@@ -38,7 +38,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="text-columns-section white-bg">
+			<section class="text-columns-section white-bg big-top-padding">
 				<div class="section-inner">
 					<div class="column">
 						<div class="section-caption no-uppercase">

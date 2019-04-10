@@ -168,11 +168,12 @@
 			display: flex;
 			width: 690px;
 			flex: none;
+			flex-wrap: nowrap;
 
 			> .item{
 				width: 220px;
 				flex: none;
-				border: 1px solid #fff;
+				border: 1px solid #fff !important;
 				margin-right: 15px;
 
 				&:last-child{
@@ -191,8 +192,8 @@
 
 				> .item{
 					margin-right: 0;
-					border-right: 1px solid #d7d7d7;
-					border-bottom: 1px solid #d7d7d7;
+					border-right: 1px solid #d7d7d7 !important;
+					border-bottom: 1px solid #d7d7d7 !important;
 
 					&:nth-child(3n){
 						border-right: 0;

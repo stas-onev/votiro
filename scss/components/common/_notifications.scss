@@ -9,10 +9,18 @@
 	display: flex;
 	justify-content: center;
 	box-shadow: 0 0 1px rgba(#fff, .1);
+	transition: all $t;
 
 	&.bottom{
 		bottom: 0;
 		background: #071633;
+		transform: translateY(100%);
+	}
+
+	&.visible{
+		&.bottom{
+			transform: translateY(0);
+		}
 	}
 
 	@media screen and (max-width: 767px){
@@ -26,16 +34,16 @@
 	align-items: center;
 
 	.ppn-text{
-		font-size: 0.777rem;
+		font-size: 14px;
 		color: #fff;
 		margin-right: 15px;
 
 		a{
-			text-decoration: underline;
+			text-decoration: none;
 			color: $azure;
 
 			&:hover{
-				text-decoration: none;
+				text-decoration: underline;
 			}
 		}
 	}
