@@ -133,6 +133,41 @@
 		}
 	}
 
+	.careers-modal-caption{
+		font-size: 1.111rem;
+		line-height: 1.2;
+		text-transform: uppercase;
+		font-weight: bold;
+		color: $primary;
+		margin-bottom: 15px;
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.careers-modal-location{
+		padding-left: 30px;
+		position: relative;
+		font-size: 1rem;
+		line-height: 22px;
+		margin-bottom: 30px;
+		color: $primary;
+		max-width: 700px;
+		margin-left: auto;
+		margin-right: auto;
+
+		&:before{
+			content: '';
+			display: block;
+			width: 15px;
+			height: 22px;
+			background: url(../img/icons/location.png) no-repeat;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+	}
+
 	// @media screen and (max-width: 991px){
 	// 	.modal-inner{
 	// 		padding: 30px 20px;

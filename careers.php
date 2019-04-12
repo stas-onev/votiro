@@ -95,7 +95,7 @@
 										<li>Experience in Python or another scripting language</li>
 									</ul>
 									<br>
-									<a href="#" class="btn">Apply</a>
+									<a href="#" class="btn" data-modal="#careers-modal">Apply</a>
 								</div>
 							</div>
 							<div class="job-opening-card">
@@ -126,7 +126,7 @@
 										<li>Experience in Python or another scripting language</li>
 									</ul>
 									<br>
-									<a href="#" class="btn">Apply</a>
+									<a href="#" class="btn" data-modal="#careers-modal">Apply</a>
 								</div>
 							</div>
 							<div class="job-opening-card">
@@ -157,7 +157,7 @@
 										<li>Experience in Python or another scripting language</li>
 									</ul>
 									<br>
-									<a href="#" class="btn">Apply</a>
+									<a href="#" class="btn" data-modal="#careers-modal">Apply</a>
 								</div>
 							</div>
 							<div class="job-opening-card">
@@ -188,7 +188,7 @@
 										<li>Experience in Python or another scripting language</li>
 									</ul>
 									<br>
-									<a href="#" class="btn">Apply</a>
+									<a href="#" class="btn" data-modal="#careers-modal">Apply</a>
 								</div>
 							</div>
 							<div class="job-opening-card">
@@ -219,7 +219,7 @@
 										<li>Experience in Python or another scripting language</li>
 									</ul>
 									<br>
-									<a href="#" class="btn">Apply</a>
+									<a href="#" class="btn" data-modal="#careers-modal">Apply</a>
 								</div>
 							</div>
 						</div>
@@ -252,7 +252,7 @@
 										<li>Experience in Python or another scripting language</li>
 									</ul>
 									<br>
-									<a href="#" class="btn">Apply</a>
+									<a href="#" class="btn" data-modal="#careers-modal">Apply</a>
 								</div>
 							</div>
 							<div class="job-opening-card">
@@ -283,7 +283,7 @@
 										<li>Experience in Python or another scripting language</li>
 									</ul>
 									<br>
-									<a href="#" class="btn">Apply</a>
+									<a href="#" class="btn" data-modal="#careers-modal">Apply</a>
 								</div>
 							</div>
 							<div class="job-opening-card">
@@ -314,7 +314,7 @@
 										<li>Experience in Python or another scripting language</li>
 									</ul>
 									<br>
-									<a href="#" class="btn">Apply</a>
+									<a href="#" class="btn" data-modal="#careers-modal">Apply</a>
 								</div>
 							</div>
 							<div class="job-opening-card">
@@ -345,7 +345,7 @@
 										<li>Experience in Python or another scripting language</li>
 									</ul>
 									<br>
-									<a href="#" class="btn">Apply</a>
+									<a href="#" class="btn" data-modal="#careers-modal">Apply</a>
 								</div>
 							</div>
 							<div class="job-opening-card">
@@ -376,7 +376,7 @@
 										<li>Experience in Python or another scripting language</li>
 									</ul>
 									<br>
-									<a href="#" class="btn">Apply</a>
+									<a href="#" class="btn" data-modal="#careers-modal">Apply</a>
 								</div>
 							</div>
 						</div>

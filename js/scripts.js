@@ -9,6 +9,13 @@ $(document).ready(function(){
 
 	jcf.replace( $('.select-field select') );
 
+	jcf.setOptions('File', {
+		buttonText: 'Attach File',
+		placeholderText: 'Upload CV*'
+	});
+
+	jcf.replace( $('.input-file input') );
+
 	$('.select-field').on('click change focus', function(){
 		if ( !$(this).find('.jcf-select-text span').is('.jcf-option-hideme') ) {
 			$(this).addClass('jcf-not-empty');
@@ -247,20 +254,22 @@ $(window).on("load", function() {
 
 	// scroll left and right
 	$landingInnerContent.on("mousemove touchmove", function(e) {
-		if (e.clientX > ($landingWrapper.width() / 2 + $landingWrapper.offset().left) ) {
-			TweenMax.to($landingWrapper, 2, {
-				scrollTo: {
-					x: "+=150"
-				},
-				ease: Power2.easeOut
-			});
-		} else {
-			TweenMax.to($landingWrapper, 2, {
-				scrollTo: {
-					x: "-=150"
-				},
-				ease: Power2.easeOut
-			});
+		if ($(window).width() >= 768) {
+			if (e.clientX > ($landingWrapper.width() / 2 + $landingWrapper.offset().left) ) {
+				TweenMax.to($landingWrapper, 2, {
+					scrollTo: {
+						x: "+=150"
+					},
+					ease: Power2.easeOut
+				});
+			} else {
+				TweenMax.to($landingWrapper, 2, {
+					scrollTo: {
+						x: "-=150"
+					},
+					ease: Power2.easeOut
+				});
+			}
 		}
 	});
 

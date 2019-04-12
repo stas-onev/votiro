@@ -25,6 +25,12 @@
 		transform: translateX(-50%);
 	}
 
+	&.no-corner{
+		&:after{
+			display: none;
+		}
+	}
+
 	.pfs-content-wrapper{
 		display: flex;
 		width: 100%;
