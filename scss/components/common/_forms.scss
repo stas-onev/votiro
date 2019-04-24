@@ -1,4 +1,8 @@
 .form{
+	p:empty {
+		display: none;
+	}
+
 	.form-row{
 		margin-bottom: 30px;
 
@@ -54,6 +58,10 @@
 
 	&.panel-form{
 		max-width: 700px;
+
+		&.fullwidth{
+			max-width: 100%;
+		}
 	}
 
 	&.careers-form{
@@ -173,10 +181,27 @@
 		}
 
 		&.jcf-not-empty{
-			.jcf-select{
+			.jcf-select,
+			.wpcf7-form-control-wrap{
 				+ label{
 					transform: translateY(-42px);
 					margin-left: 0px;
+				}
+			}
+		}
+
+		.wpcf7-form-control-wrap{
+			+ label{
+				font-weight: 500;
+				color: #09214f;
+				margin-left: 23px;
+				line-height: 42px;
+			}
+
+			&.focus{
+				+ label{
+					transform: translateY(-42px);
+					margin-left: 0;
 				}
 			}
 		}

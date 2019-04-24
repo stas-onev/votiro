@@ -105,6 +105,8 @@
 			font-weight: 500;
 			color: $primary;
 			text-decoration: none;
+			transition: all $t;
+			opacity: 0;
 
 			&:after{
 				content: '';
@@ -120,6 +122,10 @@
 		&:hover{
 			.item-caption{
 				color: $primary;
+			}
+
+			.learn-more{
+				opacity: 1;
 			}
 		}
 

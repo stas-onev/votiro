@@ -1,6 +1,7 @@
 <div class="fullpage-tabs-container">
 	<div class="tab" id="government-agencies-fullpage">
 		<div class="tab-content tpg">
+			<div class="tab-close">Close</div>
 			<div class="section-caption">
 				<h3 class="sc-title">Government agencies</h3>
 			</div>
@@ -15,6 +16,7 @@
 	</div>
 	<div class="tab" id="healthcare-fullpage">
 		<div class="tab-content tpg">
+			<div class="tab-close">Close</div>
 			<div class="section-caption">
 				<h3 class="sc-title">Healthcare</h3>
 			</div>
@@ -29,6 +31,7 @@
 	</div>
 	<div class="tab" id="insurance-fullpage">
 		<div class="tab-content tpg">
+			<div class="tab-close">Close</div>
 			<div class="section-caption">
 				<h3 class="sc-title">Insurance</h3>
 			</div>
@@ -43,6 +46,7 @@
 	</div>
 	<div class="tab" id="financial-services-fullpage">
 		<div class="tab-content tpg">
+			<div class="tab-close">Close</div>
 			<div class="section-caption">
 				<h3 class="sc-title">Financial services</h3>
 			</div>
@@ -57,6 +61,7 @@
 	</div>
 	<div class="tab" id="critical-infrastructure-fullpage">
 		<div class="tab-content tpg">
+			<div class="tab-close">Close</div>
 			<div class="section-caption">
 				<h3 class="sc-title">Critical infrastructure</h3>
 			</div>

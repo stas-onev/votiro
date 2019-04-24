@@ -77,12 +77,12 @@
 
 		@media screen and (max-width: 767px){
 			width: 100%;
-			border-bottom: 1px solid #b3b3b3;
+			border-bottom: 1px solid #b3b3b3 !important;
 			border-right: 0;
 			padding: 35px 0 !important;
 
 			&:last-child{
-				border-bottom: 0;
+				border-bottom: 0 !important;
 			}
 		}
 	}

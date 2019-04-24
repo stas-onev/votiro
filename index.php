@@ -297,73 +297,73 @@
 						<div class="supported-files-list">
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/pst.png" alt="">
+									<img src="img/big-icons/pst.png" alt="pst">
 								</div>
 								<div class="item-name">pst</div>
 							</div>
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/excel.png" alt="">
+									<img src="img/big-icons/excel.png" alt="excel">
 								</div>
 								<div class="item-name">excel</div>
 							</div>
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/acrobat.png" alt="">
+									<img src="img/big-icons/acrobat.png" alt="acrobat">
 								</div>
 								<div class="item-name">acrobat</div>
 							</div>
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/docx.png" alt="">
+									<img src="img/big-icons/docx.png" alt="docx">
 								</div>
 								<div class="item-name">docx</div>
 							</div>
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/gif.png" alt="">
+									<img src="img/big-icons/gif.png" alt="gif">
 								</div>
 								<div class="item-name">gif</div>
 							</div>
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/ppt.png" alt="">
+									<img src="img/big-icons/ppt.png" alt="ppt">
 								</div>
 								<div class="item-name">ppt</div>
 							</div>
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/visio.png" alt="">
+									<img src="img/big-icons/visio.png" alt="visio">
 								</div>
 								<div class="item-name">visio</div>
 							</div>
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/txt.png" alt="">
+									<img src="img/big-icons/txt.png" alt="txt">
 								</div>
 								<div class="item-name">txt</div>
 							</div>
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/ichitaro.png" alt="">
+									<img src="img/big-icons/ichitaro.png" alt="Ichitaro">
 								</div>
 								<div class="item-name">Ichitaro</div>
 							</div>
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/visio-2.png" alt="">
+									<img src="img/big-icons/visio-2.png" alt="visio">
 								</div>
 								<div class="item-name">visio</div>
 							</div>
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/hancom.png" alt="">
+									<img src="img/big-icons/hancom.png" alt="hancom">
 								</div>
 								<div class="item-name">hancom</div>
 							</div>
 							<div class="item">
 								<div class="item-icon">
-									<img src="img/big-icons/jpeg.png" alt="">
+									<img src="img/big-icons/jpeg.png" alt="jpeg">
 								</div>
 								<div class="item-name">jpeg</div>
 							</div>
@@ -492,7 +492,7 @@
 				</div>
 			</section>
 			<?php include('footer.php'); ?>
-			<?php // include('notifications.php'); ?>
+			<?php include('notifications.php'); ?>
 			<?php include('page-parts/fullpage-tabs.inc.php'); ?>
 		</div>
 	</div>

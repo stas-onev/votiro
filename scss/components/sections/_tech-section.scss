@@ -7,7 +7,7 @@
 	.section-text{
 		width: 50%;
 		flex: none;
-		padding: 300px $col-width 300px calc(#{$col-width} / 2);
+		padding: 320px $col-width 300px $col-width;
 		position: relative;
 		display: flex;
 		align-items: center;
@@ -36,6 +36,10 @@
 
 	&.light{
 		padding: 90px 0;
+
+		h3.text-uppercase{
+			font-weight: bold;
+		}
 
 		.section-text{
 			padding: 0 70px 0 $col-width;
@@ -126,23 +130,42 @@
 		}
 
 		.tech-cards-list{
-			display: flex;
-			width: 690px;
-			flex: none;
-			flex-wrap: nowrap;
-
-			> .item{
-				width: 220px;
+			&:not(.sm-2-columns){
+				display: flex;
+				width: 690px;
 				flex: none;
-				border: 1px solid #fff !important;
-				margin-right: 15px;
+				flex-wrap: nowrap;
 
-				&:last-child{
-					margin-right: 0;
+				> .item{
+					width: 220px;
+					flex: none;
+					border: 1px solid #fff !important;
+					margin-right: 15px;
+
+					&:last-child{
+						margin-right: 0;
+					}
+
+					&:nth-child(3n){
+						margin-right: 15px;
+					}
 				}
+			}
 
-				&:nth-child(3n){
-					margin-right: 0;
+			&.sm-2-columns{
+				width: 690px;
+				flex: none;
+
+				> .item{
+					&:nth-child(3n){
+						border-right: 0 !important;
+					}
+
+					&:nth-child(4),
+					&:nth-child(5),
+					&:nth-child(6){
+						border-bottom: 0 !important;
+					}
 				}
 			}
 		}
@@ -228,6 +251,12 @@
 				border-right: 0 !important;
 				border-bottom: 2px solid #041637 !important;
 			}
+		}
+	}
+
+	@media screen and (max-width: 767px){
+		&.sm-2-columns{
+			flex-wrap: wrap;
 		}
 	}
 }

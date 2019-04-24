@@ -79,7 +79,7 @@
 
 			@media screen and (max-width: 991px){
 				line-height: 1.3;
-				max-height: calc(1.3em * 6); // 6 lines
+				// max-height: calc(1.3em * 6); // 6 lines
 			}
 		}
 
@@ -101,15 +101,15 @@
 			text-decoration: underline;
 		}
 
-		// &:after{
-		// 	content: '';
-		// 	display: block;
-		// 	width: 100%;
-		// 	height: 100%;
-		// 	position: absolute;
-		// 	left: 0;
-		// 	top: 0;
-		// }
+		&:after{
+			content: '';
+			display: block;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
 	}
 
 	&:hover{

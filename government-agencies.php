@@ -49,7 +49,7 @@
 						</div>
 					</div>
 					<div class="section-cards-wrapper">
-						<div class="tech-cards-list">
+						<div class="tech-cards-list sm-2-columns">
 							<div class="item">
 								<div class="tech-card">
 									<div class="card-image">

@@ -1,3 +1,87 @@
 .fullpage-tabs-container{
-	display: none;
+	position: fixed;
+	left: 0;
+	width: 100%;
+	z-index: 50;
+	background: #f7f7f7;
+	top: 0;
+
+	@media screen and (max-width: 767px){
+		top: 66px;
+	}
+
+	.tab{
+		transform: translateY(-100%);
+		height: calc(100vh - 66px);
+		width: 100%;
+		padding: 30px 15px;
+		background: #f7f7f7;
+		transition: all $t;
+		position: absolute;
+		left: 0;
+		top: 0;
+
+		.section-caption{
+			padding-right: 60px;
+		}
+
+		&.opened{
+			transform: translateY(0);
+			box-shadow: $shadow;
+		}
+
+		.tab-content{
+			height: calc(100vh - 60px - 66px);
+			overflow-y: auto;
+		}
+
+		.tab-close{
+			cursor: pointer;
+			position: absolute;
+			right: 15px;
+			top: 15px;
+			padding-top: 45px;
+			z-index: 5;
+			font-size: 14px;
+			line-height: 1;
+			color: #1c1b1b;
+			transition: all $t;
+			font-weight: 500;
+			text-transform: uppercase;
+			text-align: center;
+
+			&:before,
+			&:after{
+				content: '';
+				display: block;
+				width: 42px;
+				height: 2px;
+				position: absolute;
+				top: 0;
+				background: #1c1b1b;
+				transition: all $t;
+			}
+
+			&:before{
+				left: 5px;
+				transform-origin: 1px 1px;
+				transform: rotate(45deg);
+			}
+
+			&:after{
+				right: calc(100% - 36px);
+				transform-origin: 41px 1px;
+				transform: rotate(-45deg);
+			}
+
+			&:hover{
+				color: $primary;
+
+				&:before,
+				&:after{
+					background: $primary;
+				}
+			}
+		}
+	}
 }

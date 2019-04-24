@@ -43,7 +43,8 @@ $(document).ready(function(){
 
 	// Careers Card
 	$('.job-opening-card .card-read-more').click(function(){
-		$(this).closest('.job-opening-card').toggleClass('opened').find('.card-hidden-content').stop().slideToggle(300);
+		$('.job-opening-card.opened').removeClass('opened').find('.card-hidden-content').stop().slideUp(300);
+		$(this).closest('.job-opening-card').addClass('opened').find('.card-hidden-content').stop().slideDown(300);
 	});
 
 	// Sidebar Panels
@@ -154,12 +155,12 @@ $(document).ready(function(){
 
 	// Static Notifications
 	$('.static-notification-section .notification-close').click(function(){
-		$(this).closest('.static-notification-section').slideUp(300);
-
-		setTimeout(function(){
-			$(this).closest('.static-notification-section').remove();
-		}, 300);
+		$(this).closest('.static-notification-section').removeClass('opened');
 	});
+
+	setTimeout(function(){
+		$('.static-notification-section').addClass('opened');
+	}, 2000);
 
 	// Notifications
 	$('.notification-close').click(function(e){
@@ -172,6 +173,12 @@ $(document).ready(function(){
 		e.preventDefault();
 
 		var dest = $( $(this).data('fullpage-tab') );
+
+		dest.addClass('opened');
+	});
+
+	$('.fullpage-tabs-container .tab-close').click(function(){
+		$(this).closest('.tab').removeClass('opened');
 	});
 
 	// Panel Form
@@ -215,6 +222,14 @@ $(document).ready(function(){
 		$(this).siblings('.underline').css({ 'left': $(this).siblings('.current-menu-item').position().left });
 	});
 
+	// Scroll to anchor
+	$('a[href^="#"]').click(function(){
+		 $('html, body').animate({
+			scrollTop: $( $.attr(this, 'href') ).offset().top - 90
+		}, 500);
+		return false;
+	});
+
 	// TODO: ↓↓↓ remove this script ↓↓↓
 	// Current menu item highlithing
 	$(function () {
@@ -254,15 +269,15 @@ $(window).on("load", function() {
 
 	// scroll left and right
 	$landingInnerContent.on("mousemove touchmove", function(e) {
-		if ($(window).width() >= 768) {
-			if (e.clientX > ($landingWrapper.width() / 2 + $landingWrapper.offset().left) ) {
+		if ($(window).width() > 767) {
+			if (e.clientX > ($landingWrapper.width() / 2 + $landingWrapper.offset().left) + 200 ) {
 				TweenMax.to($landingWrapper, 2, {
 					scrollTo: {
 						x: "+=150"
 					},
 					ease: Power2.easeOut
 				});
-			} else {
+			} else if(e.clientX < ($landingWrapper.width() / 2 + $landingWrapper.offset().left) - 200) {
 				TweenMax.to($landingWrapper, 2, {
 					scrollTo: {
 						x: "-=150"

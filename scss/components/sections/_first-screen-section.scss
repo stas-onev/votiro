@@ -66,7 +66,7 @@
 			}
 
 			.item-caption{
-				font-size: 1.111rem;
+				font-size: 20px;
 				line-height: 1.25;
 				text-transform: uppercase;
 				color: #fff;
@@ -223,6 +223,7 @@
 
 		.section-hidden-tabs{
 			width: calc(100% - 250px);
+			right: 250px;
 		}
 	}
 
@@ -241,6 +242,7 @@
 
 		.section-hidden-tabs{
 			width: calc(100% - 170px);
+			right: 170px;
 		}
 	}
 }
