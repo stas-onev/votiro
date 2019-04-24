@@ -230,6 +230,20 @@ $(document).ready(function(){
 		return false;
 	});
 
+	// Accordions
+	$('[data-accordion]').click(function(){
+		var dest = $( $(this).data('accordion') );
+
+		if ($(this).hasClass('current')) {
+			dest.slideUp(500);
+			$(this).removeClass('current');
+		} else{
+			dest.slideDown(500).siblings('.accordion-content').slideUp(500);
+			$('[data-accordion]').removeClass('current');
+			$(this).addClass('current');
+		}
+	});
+
 	// TODO: ↓↓↓ remove this script ↓↓↓
 	// Current menu item highlithing
 	$(function () {

@@ -83,5 +83,19 @@
 				}
 			}
 		}
+
+		&.blue-bg{
+			background: #08214f;
+			color: #fff;
+
+			.tab-close{
+				color: #fff;
+
+				&:before,
+				&:after{
+					background: #fff;
+				}
+			}
+		}
 	}
 }

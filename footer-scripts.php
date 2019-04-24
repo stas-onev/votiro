@@ -1,4 +1,8 @@
 	</div><!-- .wrapper -->
+	<div class="lets-start-mobile" data-fullpage-tab="#lets-start-select-tab">
+		<h5 class="block-caption">Let’s Start <i class="icon-arrow-right"></i></h5>
+		<p class="block-subcaption">Secure Your Digital Journey</p>
+	</div>
 	<!-- About Page Modals -->
 	<div class="modal" id="team-modal">
 		<div class="modal-inner">
