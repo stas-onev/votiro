@@ -20,6 +20,7 @@
 		position: absolute;
 		left: 0;
 		top: 0;
+		visibility: hidden;
 
 		.section-caption{
 			padding-right: 60px;
@@ -28,6 +29,7 @@
 		&.opened{
 			transform: translateY(0);
 			box-shadow: $shadow;
+			visibility: visible;
 		}
 
 		.tab-content{

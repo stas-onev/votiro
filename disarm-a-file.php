@@ -35,7 +35,7 @@
 							<h3 class="sc-title">Don't Want to Test The Votiro Engine On Your File?</h3>
 							<p class="sc-subtitle">Test it On One of These Malicious Demo Files:</p>
 						</div>
-						<div class="disarm-files-list">
+						<!-- <div class="disarm-files-list">
 							<div class="item">
 								<div class="file-sample-block">
 									<div class="block-image">
@@ -68,7 +68,7 @@
 									<div class="block-caption">Excel sample.xlsx</div>
 								</div>
 							</div>
-						</div>
+						</div> -->
 					</div>
 					<div class="column">
 						<div class="tpg">
@@ -79,13 +79,18 @@
 								<br>16MB
 							</p>
 						</div>
-						<div class="upload-area">
+						<!-- <div class="upload-area">
 							<div class="area-inner">
 								<p><span>Drag File Here <br>OR <br></span>Upload File</p>
 								<button class="btn">Try me!</button>
 							</div>
-						</div>
+						</div> -->
 					</div>
+				</div>
+			</section>
+			<section class="sanitize-demo-section">
+				<div class="section-inner">
+					<iframe class="saf" style="border: 0;" src="https://filescan.votiro.com/iframe" width="100%" height="800"></iframe>
 				</div>
 			</section>
 			<?php include('footer.php'); ?>

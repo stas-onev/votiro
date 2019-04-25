@@ -10,6 +10,8 @@
 	justify-content: center;
 	box-shadow: 0 0 1px rgba(#fff, .1);
 	transition: all $t;
+	z-index: 110;
+	visibility: hidden;
 
 	&.bottom{
 		bottom: 0;
@@ -18,6 +20,8 @@
 	}
 
 	&.visible{
+		visibility: visible;
+
 		&.bottom{
 			transform: translateY(0);
 		}
@@ -26,6 +30,10 @@
 	@media screen and (max-width: 767px){
 		padding-left: 20px;
 		padding-right: 20px;
+
+		.gdpr &{
+			bottom: 55px;
+		}
 	}
 }
 

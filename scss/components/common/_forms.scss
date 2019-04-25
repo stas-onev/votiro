@@ -1,3 +1,9 @@
+form{
+	p:empty {
+		display: none;
+	}
+}
+
 .form{
 	p:empty {
 		display: none;
@@ -18,7 +24,8 @@
 				.form-field{
 					margin-bottom: 30px;
 
-					&:last-child{
+					&:last-child,
+					&:last-of-type{
 						margin-bottom: 0;
 					}
 				}
@@ -170,6 +177,10 @@
 				color: #09214f;
 				margin-left: 23px;
 				line-height: 42px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				padding-right: 40px;
+				white-space: nowrap;
 			}
 
 			&.jcf-focus{
@@ -196,6 +207,10 @@
 				color: #09214f;
 				margin-left: 23px;
 				line-height: 42px;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				padding-right: 40px;
+				white-space: nowrap;
 			}
 
 			&.focus{
@@ -370,6 +385,15 @@
 					transform: rotate(-45deg);
 					opacity: 1;
 				}
+			}
+		}
+	}
+
+	&.checked{
+		label{
+			&:after{
+				transform: rotate(-45deg);
+				opacity: 1;
 			}
 		}
 	}

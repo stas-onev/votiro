@@ -492,7 +492,7 @@
 				</div>
 			</section>
 			<?php include('footer.php'); ?>
-			<?php include('notifications.php'); ?>
+			<?php // include('notifications.php'); ?>
 			<?php include('page-parts/fullpage-tabs.inc.php'); ?>
 		</div>
 	</div>

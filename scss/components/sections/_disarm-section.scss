@@ -171,3 +171,28 @@
 		}
 	}
 }
+
+.sanitize-demo-section{
+	background: #08214f;
+	padding: 40px 0;
+
+	iframe{
+		display: block;
+		height: 927px;
+		background: #08214f;
+	}
+
+	@media screen and (max-width: 870px){
+		iframe{
+			height: 1057px;
+			background: #08214f;
+			overflow: hidden;
+		}
+	}
+
+	@media screen and (max-width: 420px){
+		iframe{
+			height: 1047px;
+		}
+	}
+}

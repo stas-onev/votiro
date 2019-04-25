@@ -46,6 +46,13 @@
 }
 
 #lets-start-select-tab{
+	padding-top: 80px;
+
+	.tab-close{
+		right: auto;
+		left: 15px;
+	}
+
 	.squared-tabs-nav{
 		margin-bottom: 15px;
 
@@ -55,12 +62,14 @@
 	}
 
 	.section-caption{
+		padding-right: 0;
+
 		.sc-title{
 			text-transform: none;
 			font-size: 22px;
 			font-weight: bold;
 			color: #1c1b1b;
-			// text-align: center;
+			text-align: center;
 
 			&:after{
 				display: none;

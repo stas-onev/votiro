@@ -247,24 +247,24 @@ $(document).ready(function(){
 	// TODO: ↓↓↓ remove this script ↓↓↓
 	// Current menu item highlithing
 	$(function () {
-		var location = window.location.href;
-		var cur_url = location.split('/').pop();
+		// var location = window.location.href;
+		// var cur_url = location.split('/').pop();
 
-		$('.top-nav li, .panel-nav li, .footer-nav li, .sidebar-nav li').each(function () {
-			var link = $(this).find('a').attr('href');
+		// $('.top-nav li, .panel-nav li, .footer-nav li, .sidebar-nav li').each(function () {
+		// 	var link = $(this).find('a').attr('href');
 
-			// console.log(link);
+		// 	// console.log(link);
 
-			if (cur_url == '') {
-				cur_url = 'index.php';
-			}
+		// 	if (cur_url == '') {
+		// 		cur_url = 'index.php';
+		// 	}
 
-			if (cur_url == link)
-			{
-				$(this).addClass('current-menu-item');
-				$(this).parents('li').addClass('current-menu-parent');
-			}
-		});
+		// 	if (cur_url == link)
+		// 	{
+		// 		$(this).addClass('current-menu-item');
+		// 		$(this).parents('li').addClass('current-menu-parent');
+		// 	}
+		// });
 	});
 });
 
